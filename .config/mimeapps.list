@@ -1,0 +1,15 @@
+[Default Applications]
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+image/svg+xml=org.inkscape.Inkscape.desktop
+x-scheme-handler/etcher=balena-etcher.desktop
+text/plain=nvim.desktop
+image/vnd.microsoft.icon=feh.desktop
+audio/vnd.wave=audacity.desktop
+video/mp4=vlc.desktop
+
+[Added Associations]
+application/octet-stream=code.desktop;
+image/svg+xml=org.inkscape.Inkscape.desktop;
+image/vnd.microsoft.icon=feh.desktop;
+audio/vnd.wave=audacity.desktop;
+video/mp4=vlc.desktop;

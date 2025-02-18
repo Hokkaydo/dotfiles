@@ -1,0 +1,19 @@
+[core]
+	sshCommand = ssh -i ~/.ssh/id_rsa -F /dev/null
+	username = hokkaydo
+	autocrlf = input
+[user]
+	signingKey = 376BFA958247553CFFBD3A37CD9F7823016D9048
+	name = hokkaydo
+	email = “hokkaydo@users.noreply.github.com”
+[credential]
+	helper = store
+[alias]
+	pr = "!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
+	lol = log --graph --decorate --oneline
+[init]
+	defaultBranch = master
+[push]
+	autoSetupRemote = true
+[http]
+	postBuffer = 524288000

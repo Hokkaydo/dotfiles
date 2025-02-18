@@ -1,0 +1,27 @@
+#User Preferences
+#Sun Oct 20 13:29:07 CEST 2024
+G_FILE_CHOOSER.HEIGHT.Select\ File\ to\ Import=600
+G_FILE_CHOOSER.HEIGHT.Select\ Filesystem\ Container\ To\ Open=600
+G_FILE_CHOOSER.HEIGHT.Select\ a\ Ghidra\ Project\ Directory=600
+G_FILE_CHOOSER.VIEW_STYLE.Select\ File\ to\ Import=SimpleView
+G_FILE_CHOOSER.VIEW_STYLE.Select\ Filesystem\ Container\ To\ Open=SimpleView
+G_FILE_CHOOSER.VIEW_STYLE.Select\ a\ Ghidra\ Project\ Directory=SimpleView
+G_FILE_CHOOSER.WIDTH.Select\ File\ to\ Import=800
+G_FILE_CHOOSER.WIDTH.Select\ Filesystem\ Container\ To\ Open=800
+G_FILE_CHOOSER.WIDTH.Select\ a\ Ghidra\ Project\ Directory=800
+GhidraShowWhatsNew=false
+LAST_USED_OPTIONS_CONFIG=Standard Defaults
+LastFileSystemDirectory=/home/hokkaydo/T\u00E9l\u00E9chargements
+LastImportFile=/home/hokkaydo/T\u00E9l\u00E9chargements/ch1.bin
+LastNewProjectDirectory=/home/hokkaydo/dev/ctf/ghidra/
+LastOpenedProject=/home/hokkaydo/dev/ctf/ghidra/General
+ProjectDirectory=/home/hokkaydo/dev/ctf/ghidra/
+RECENT_0=/home/hokkaydo/T\u00E9l\u00E9chargements
+RECENT_1=/home/hokkaydo/dev/ctf
+RecentProjects=/home/hokkaydo/dev/ctf/ghidra/General
+SHOW.HELP.NAVIGATION.AID=true
+SHOW_TIPS=true
+TIP_INDEX=3
+Theme=Class\:generic.theme.builtin.NimbusTheme
+USER_AGREEMENT=ACCEPT
+ViewedProjects=

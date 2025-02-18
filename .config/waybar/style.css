@@ -1,0 +1,161 @@
+/*dark-theme : #11111b*/
+
+
+* {
+    font-family: JetBrainsMono Nerd Font, feather;
+    font-weight: 900;
+    color: #c0caf5;
+    border:none;
+    
+}
+
+window.eDP-1 {
+    font-size: 16px;
+}
+
+window.HDMI-A-1 {
+    font-size: 16px;
+}
+
+/* Set background color of main waybar window */
+window#waybar {
+    background: transparent;
+}
+
+/* Set background color of tooltips */
+tooltip {
+    background: #11111b;
+}
+
+#custom-notion {
+    background-image: url('/home/hokkaydo/.config/waybar/resources/notion.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+
+#custom-arch, #workspaces, #custom-spotify, #custom-notion {
+    border-radius: 10px;
+    background-color: #11111b;
+    color: #b4befe;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#custom-arch {
+    font-size: 20px;
+	margin-left: 15px;
+    color: #b4befe;
+}
+
+
+/* Set workspace text color and padding */
+#workspaces button {
+    background: #11111b;
+    color: #b4befe;
+}
+
+/* Sets active workspace to have a solid line on the bottom */
+#workspaces button.active {
+  border-bottom: 2px solid #7aa2f7;
+  border-radius: 0;
+  margin-bottom: 2px;
+}
+
+/* More workspace stuff for highlighting on hover */
+#workspaces button.focused {
+  color: #a6adc8;
+}
+
+#workspaces button.urgent {
+  color: #f7768e;
+}
+
+#workspaces button:hover {
+  background: #11111b;
+  color: #cdd6f4;
+}
+
+
+#custom-wallpaper, #clock, #pulseaudio, #bluetooth, #network, #battery, #custom-notification, #memory, #cpu {
+    border-radius: 10px;
+    background-color: #11111b;
+    color: #cdd6f4;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15px;
+}
+
+#backlight {
+    background-color: #11111b;
+    color: #cdd6f4;
+    margin-top: 15px;
+    padding-left: 10px;
+
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#custom-wallpaper, #bluetooth, #cpu {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-right: 5px;
+    margin-right: 0
+}
+
+
+#pulseaudio, #network, #memory {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 5px;
+}
+
+#clock {
+    margin-right: 0;
+}
+
+/* Sets background, padding, margins, and borders for (all) modules */
+#custom-kernel,
+#custom-pacman,
+#temperature,
+#capu,
+#meamory,
+#tray,
+#mpd,
+#custom-powermenu{
+  background: rgba(21, 22, 30, 0);
+  padding: 0 10px;
+  margin: 3px 0;
+  border: 0;
+}
+
+#window.empty {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* Set up rounding to make these modules look like separate pills */
+#mpd {
+  border-radius: 8px;
+  margin-left: 4px;
+}
+
+#tray {
+  border-radius: 8px;
+  margin-right: 4px;
+}
+
+/* Rounding only on left of module */
+#temperature {
+  border-radius: 8px 0 0 8px;
+}
+
+/* Rounding only on right of module(s) */
+#custom-pacman,
+#custom-kernel {
+  border-radius: 0 8px 8px 0;
+}

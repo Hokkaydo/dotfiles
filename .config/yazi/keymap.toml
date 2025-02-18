@@ -1,0 +1,14 @@
+[[manager.prepend_keymap]]
+on = [ "g", "i", "c"]
+run = "shell '~/.local/scripts/git_push.sh' --confirm"
+desc = "Git update only tracked files"
+
+[[manager.prepend_keymap]]
+on = [ "g", "i", "a"]
+run = "shell '~/.local/scripts/git_push.sh --all' --confirm"
+desc = "Git update all files"
+
+[[manager.prepend_keymap]]
+on = [ "n", "o" ]
+desc = "Push note"
+run = "shell '~/.local/scripts/obsidian_notes_sender.sh \"$@\"' --confirm"
