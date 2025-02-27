@@ -1,32 +1,58 @@
-window.opacity = 0.5
+[colors.bright]
+black = "0x434758"
+blue = "0x9cc4ff"
+cyan = "0xa3f7ff"
+green = "0xddffa7"
+magenta = "0xe1acff"
+red = "0xff8b92"
+white = "0xffffff"
+yellow = "0xffe585"
 
+[colors.normal]
+black = "0x292d3e"
+blue = "0x82aaff"
+cyan = "0x89ddff"
+green = "0xc3e88d"
+magenta = "0xc792ea"
+red = "0xf07178"
+white = "0xd0d0d0"
+yellow = "0xffcb6b"
 
-[terminal.shell]
-program = "/usr/bin/zsh"
-
-[window.padding]
-y = 0
-x = 0
-
-[font] 
-size = 14.0
-normal.family = "JetBrainsMono NF"
-normal.style = "Regular"
-bold.family = "JetBrainsMono NF"
-bold.style = "Bold"
-italic.family = "JetBrainsMono NF"
-italic.style = "Italic"
-bold_italic.family = "JetBrainsMono NF"
-bold_italic.style = "Bold Italic"
+[colors.primary]
+background = "0x292d3e"
+foreground = "0xd0d0d0"
 
 [cursor]
-style.shape = "Beam"
-vi_mode_style.shape = "Block"
+unfocused_hollow = true
 
-[general]
+[env]
+TERM = "xterm-256color"
 
+[font]
+size = 13.0
 
-live_config_reload = true
-import = [ "~/.config/alacritty/tokyo-night-storm.toml" ]
+[keyboard]
+bindings = [
+    { key = "V",              mods = "Control|Alt", action = "Paste"            },
+    { key = "Paste",                            action = "Paste"            },
+    { key = "C",              mods = "Control|Alt", action = "Copy"             },
+    { key = "Copy",                             action = "Copy"             },
+    { key = "Plus",           mods = "Control", action = "IncreaseFontSize" },
+    { key = "NumpadAdd",      mods = "Control", action = "IncreaseFontSize" },
+    { key = "Minus",          mods = "Control", action = "DecreaseFontSize" },
+    { key = "NumpadSubtract", mods = "Control", action = "DecreaseFontSize" }
+]
 
-[terminal]
+[window]
+decorations_theme_variant = "Dark"
+dynamic_padding = false
+opacity = 0.8
+decorations = "None"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 0
+y = 0
