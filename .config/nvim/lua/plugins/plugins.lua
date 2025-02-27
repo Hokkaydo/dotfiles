@@ -57,9 +57,22 @@ return {
         lazy = true,
         ft = "markdown",
         dependencies = { "nvim-lua/plenary.nvim" },
-        opts = { workspaces = { { name = "Personal", path = "~/obsidian" } }, },
+        opts = { 
+            workspaces = { { name = "Personal", path = "~/obsidian" } }, 
+            conceallevel=1 
+        },
         config = function(_, opts)
             require("obsidian").setup(opts)
+        end
+    },
+
+    -- VimTex
+    
+    {
+        "lervag/vimtex",
+        lazy = false,
+        init = function()
+            vim.g.vimtex_view_method = "zathura"
         end
     },
 
