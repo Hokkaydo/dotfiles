@@ -7,7 +7,9 @@ return {
         { 'hrsh7th/cmp-buffer' },
         { 'hrsh7th/cmp-cmdline' },
         { 'kirasok/cmp-hledger' },
+        { "saadparwaiz1/cmp_luasnip" },
     },
+    event = "InsertEnter",
     config = function()
         local cmp = require("cmp")
 
@@ -21,6 +23,7 @@ return {
                 { name = 'nvim_lsp' },
                 { name = 'path' },
                 { name = 'hledger' },
+                { name = "luasnip" },
             }, {
                 { name = 'buffer' },
             }),
