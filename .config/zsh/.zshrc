@@ -30,7 +30,7 @@ export SSLKEYLOGFILE="/home/hokkaydo/sslkey"
 export PYTHONPATH="/usr/share/aima-python3"
 
 # Fetch
-nitch  # nitch
+#nitch  # nitch
 
 # Custom Prompt 
 PROMPT='%B%F{white} %~ %B%F{cyan} %F{white}'
