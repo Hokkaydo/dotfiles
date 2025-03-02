@@ -9,7 +9,6 @@ return {
         { 'kirasok/cmp-hledger' },
         { "saadparwaiz1/cmp_luasnip" },
     },
-    event = "InsertEnter",
     config = function()
         local cmp = require("cmp")
 
