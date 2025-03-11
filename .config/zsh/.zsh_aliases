@@ -121,7 +121,6 @@ alias gi='git init'
 alias uptime="uptime -p"
 
 # Yay
-alias sysupd="topgrade"
 alias ys="yay"
 alias yi="yay -S"
 alias y="yay -Syu --noconfirm"
@@ -135,10 +134,6 @@ alias rate="upower -d | grep "energy-rate" | head -n 1 | cut -d: -f2 | cut -d ' 
 alias battery="upower -d | grep -E 'energy-|capacity' | grep -vE 'empty|rate' | head -3"
 alias capacity="upower -d | grep -E 'capacity' | cut -d ' ' -f17"
 alias history="cat ~/.config/zsh/.zsh_history"
-
-alias mini-internet-ssh="ssh -J aorekhoff@studssh.info.ucl.ac.be -p 2056 root@130.104.229.47"
-alias mini-internet-matrix="ssh -L 8080:130.104.229.47:80 aorekhoff@studssh.info.ucl.ac.be"
-#alias mini-internet-backup="scp -O -J aorekhoff@studssh.info.ucl.ac.be -P 2056 root@1:~/configs_<date>_<heure>.zip ."
 
 function gcce() {
   gcc "$1"
@@ -177,4 +172,13 @@ function rm() {
 
 function rmf() {
     /usr/bin/rm -rf ${@:1}
+}
+
+function asan_on() {
+    export LD_PRELOAD=/usr/lib/libasan.so
+    export ASAN_OPTIONS=protect_shadow_gap=0:replace_intrin=0:detect_leaks=0
+}
+ 
+function asan_off() {
+    export LD_PRELOAD=""
 }
