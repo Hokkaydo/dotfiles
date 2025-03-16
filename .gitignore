@@ -96,6 +96,7 @@ sslkey
 .gnupg/*
 
 .ignore_*
+**/gitignore_*/**
 
 VirtualBox*
 .vagrant.d/*

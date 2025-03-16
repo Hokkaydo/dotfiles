@@ -7,6 +7,7 @@ image/vnd.microsoft.icon=feh.desktop
 audio/vnd.wave=audacity.desktop
 video/mp4=vlc.desktop
 audio/mpeg=vlc.desktop
+x-scheme-handler/postman=Postman.desktop
 
 [Added Associations]
 application/octet-stream=code.desktop;
