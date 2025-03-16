@@ -95,14 +95,13 @@ sslkey
 .config/kwalletrc
 .gnupg/*
 
-.ignore_*
+gitignore_*
 **/gitignore_*/**
 
 VirtualBox*
 .vagrant.d/*
 .config/coc/
 obsidian/*
-notes.txt
 
 .config/obsidian/*
 .config/BraveSoftware/
