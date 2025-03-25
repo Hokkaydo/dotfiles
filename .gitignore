@@ -95,8 +95,8 @@ sslkey
 .config/kwalletrc
 .gnupg/*
 
-gitignore_*
-**/gitignore_*/**
+*.gitignore*
+**/*_gitignore/**
 
 VirtualBox*
 .vagrant.d/*
@@ -113,3 +113,6 @@ obsidian/*
 .config/Bluesky
 .config/google-chrome-for-testing
 .config/google-chrome
+
+openvpn/*/**
+vmware/**
