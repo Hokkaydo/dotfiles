@@ -211,7 +211,7 @@
 
     "custom/spotify": {
         "exec": "~/.local/scripts/song_helper.sh show",  
-        "format": "{}  ",
+        "format": "{}",
         "interval": 1,
         "on-click": "([ \"$(playerctl -l 2>&1)\" = \"No players found\" ] && spotify &) && (~/.local/scripts/song_helper.sh toggle)",
         "on-click-right": "~/.local/scripts/song_helper.sh next",
