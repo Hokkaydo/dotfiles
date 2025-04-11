@@ -135,6 +135,8 @@ alias battery="upower -d | grep -E 'energy-|capacity' | grep -vE 'empty|rate' | 
 alias capacity="upower -d | grep -E 'capacity' | cut -d ' ' -f17"
 alias history="cat ~/.config/zsh/.zsh_history"
 
+alias fin="ledger register"
+
 function gcce() {
   gcc "$1"
   ./a.out

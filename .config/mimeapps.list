@@ -9,6 +9,7 @@ video/mp4=vlc.desktop
 audio/mpeg=vlc.desktop
 x-scheme-handler/postman=Postman.desktop
 text/x-csrc=nvim.desktop
+application/x-shellscript=nvim.desktop
 
 [Added Associations]
 application/octet-stream=code.desktop;
@@ -18,3 +19,4 @@ audio/vnd.wave=audacity.desktop;
 video/mp4=vlc.desktop;
 audio/mpeg=vlc.desktop;
 text/x-csrc=nvim.desktop;
+application/x-shellscript=nvim.desktop;
