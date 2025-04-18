@@ -1,7 +1,7 @@
-acpilight
 aircrack-ng
 alsa-firmware
 alsa-utils
+asciiquarium
 audacity
 base
 base-devel
@@ -20,6 +20,7 @@ brightnessctl
 btop
 ca-certificates
 cfitsio
+clevis
 cliphist
 cmake
 cowsay
@@ -102,6 +103,7 @@ libreoffice-fresh
 linux
 linux-firmware
 linux-headers
+lldb
 lshw
 luarocks
 lutris
@@ -112,7 +114,6 @@ meson
 mpc
 mpd
 mtools
-musescore
 nano
 nasm
 nautilus
@@ -132,6 +133,7 @@ noto-fonts-cjk
 noto-fonts-emoji
 npm
 ntfs-3g
+nvm
 nwg-look
 obs-studio
 obsidian
@@ -157,6 +159,7 @@ pydf
 python-cvxpy
 python-dbus
 python-dnspython
+python-ecdsa
 python-flask
 python-flask-cors
 python-fsspec
@@ -183,10 +186,10 @@ python-regex
 python-scapy
 python-scipy
 python-seaborn
-python-sounddevice
 python-statsmodels
 python-sympy
 python-termcolor
+python-utils
 python-z3-solver
 qbittorrent
 qt5-wayland
@@ -196,6 +199,7 @@ radare2
 rclone
 ripgrep
 rofi-emoji
+ropgadget
 ropper
 rpcbind
 rpi-imager
@@ -213,6 +217,7 @@ socat
 sof-firmware
 speedtest-cli
 spotify-launcher
+sshfs
 steam
 strace
 sudo
@@ -250,6 +255,7 @@ time
 tk
 tldr
 tlp
+tmux
 traceroute
 tree
 ttf-font-awesome
@@ -263,7 +269,6 @@ usbutils
 valgrind
 vi
 vim
-virtualbox
 vlc
 vulkan-intel
 vulkan-tools
