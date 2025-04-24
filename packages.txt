@@ -141,6 +141,7 @@ opencl-clhpp
 opencl-clover-mesa
 opencl-rusticl-mesa
 openmp
+openssl-1.1
 openvpn
 otf-font-awesome
 pamixer
@@ -204,7 +205,6 @@ ropper
 rpcbind
 rpi-imager
 rubygems
-rust
 rust-src
 samba
 scanmem

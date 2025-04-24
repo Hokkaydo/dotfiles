@@ -20,3 +20,4 @@ video/mp4=vlc.desktop;
 audio/mpeg=vlc.desktop;
 text/x-csrc=nvim.desktop;
 application/x-shellscript=nvim.desktop;
+application/vnd.previewsystems.box=vmware-workstation.desktop;
