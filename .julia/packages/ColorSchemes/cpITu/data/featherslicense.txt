@@ -1,5 +1,0 @@
-MIT License
-
-Copyright (c) 2021 Shandiya Balasubramaniam
-
-https://github.com/shandiya/feathers/
