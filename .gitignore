@@ -124,3 +124,7 @@ Pictures/affiche-we-loup-2025/**
 .julia/*
 Pictures/utils/\<3.png
 .config/grub2-themes
+.codecarbon.config
+.config/torbrowser/
+Android/*
+AndroidStudioProjects/*
