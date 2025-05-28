@@ -154,4 +154,4 @@ if [[ -f "$HOME/.config/zsh/plugins/zsh-history-substring-search.zsh" ]]; then
 fi
 
 # Created by `pipx` on 2024-03-14 11:39:09
-export PATH="$PATH:/home/hokkaydo/.local/bin"
+export PATH="$PATH:/home/hokkaydo/.local/bin:/usr/share/tau2/x86_64/bin"

@@ -184,3 +184,7 @@ function asan_on() {
 function asan_off() {
     export LD_PRELOAD=""
 }
+
+function listening() {
+    netstat -nlp | grep $1
+}
