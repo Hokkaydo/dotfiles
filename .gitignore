@@ -128,3 +128,6 @@ Pictures/utils/\<3.png
 .config/torbrowser/
 Android/*
 AndroidStudioProjects/*
+.config/Google/
+.skiko/
+.software/
