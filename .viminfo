@@ -12,13 +12,13 @@
 ~h
 # Historique ligne de commande (chronologie décroissante) :
 :q
-|2,0,1747573579,,"q"
+|2,0,1748699892,,"q"
+:q!
+|2,0,1748699889,,"q!"
 :wq
 |2,0,1747573405,,"wq"
 :pwd
 |2,0,1729334078,,"pwd"
-:q!
-|2,0,1697705073,,"q!"
 :w
 |2,0,1695237907,,"w"
 
@@ -63,28 +63,38 @@
 |3,0,36,0,1,0,1695237900,", "
 
 # Marques dans le fichier :
-'0  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
-|4,48,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
-'1  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,49,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
-'2  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,50,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
-'3  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,51,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
-'4  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,52,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+'0  1  0  ~/note
+|4,48,1,0,1748699892,"~/note"
+'1  1  11  ~/note
+|4,49,1,11,1748699889,"~/note"
+'2  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
+|4,50,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
+'3  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,51,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
+'4  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,52,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
 '5  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
 |4,53,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
 '6  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
 |4,54,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
-'7  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,55,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
-'8  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,56,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
-'9  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,57,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
+'7  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,55,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+'8  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,56,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+'9  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,57,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
 
 # Liste de sauts (le plus récent en premier) :
+-'  1  0  ~/note
+|4,39,1,0,1748699892,"~/note"
+-'  1  11  ~/note
+|4,39,1,11,1748699889,"~/note"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
+|4,39,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
+|4,39,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
+|4,39,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
 -'  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
 |4,39,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
 -'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
@@ -92,6 +102,30 @@
 -'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
 |4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
 -'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
 |4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
 -'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
 |4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
@@ -107,6 +141,54 @@
 |4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
 -'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
 |4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
+|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
 -'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
 |4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
 -'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
@@ -143,150 +225,75 @@
 |4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
 -'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
 |4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573159,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/index
-|4,39,1,0,1747573149,"~/dev/epl/Q8/LINMA2710/.git/index"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573138,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573138,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573138,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573138,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573138,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573138,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573138,"~/dev/epl/Q8/LINMA2710/.git/config"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
+|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/note
+	*	1748699891	0
+	"	1	0
+	^	1	12
+	.	1	11
+	+	1	11
 
 > ~/dev/epl/Q8/LINMA2710/.gitmodules
 	*	1747573576	0
