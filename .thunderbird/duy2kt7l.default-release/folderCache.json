@@ -1,0 +1,170 @@
+{
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/Local Folders" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 28,
+		"folderName" : "Local Folders",
+		"folderSize" : -1,
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : -1,
+		"totalUnreadMsgs" : -1,
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/Local Folders/Trash.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 260,
+		"folderName" : "Trash",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1",
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/Local Folders/Unsent Messages.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 2052,
+		"folderName" : "Unsent Messages",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1",
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/outlook.office365.com" : 
+	{
+		"ewsId" : "AQMkADBiOTAxMmQxLWI2YTUtNDZlNC05YWMyLWYwOThhNmQyYWEANzkALgAAA7oS8JdR3e9DrMzyY9HoqWABAJP9BEri3tFEtUlDwtxtCNAAAAIBCAAAAA==",
+		"expungedBytes" : 0,
+		"flags" : 0,
+		"folderSize" : -1,
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/outlook.office365.com/Archive.msf" : 
+	{
+		"ewsId" : "AAMkADBiOTAxMmQxLWI2YTUtNDZlNC05YWMyLWYwOThhNmQyYWE3OQAuAAAAAAC6EvCXUd3vQ6zM8mPR6KlgAQCT/QRK4t7RRLVJQ8LcbQjQAAAAJcp5AAA=",
+		"ewsSyncStateToken" : "H4sIAAAAAAAEAGNg4GAAAotqE0tHE2NTA0ddZ3NHC10TR2djXSdnJ2ddNyMnC2cnczdLU1OD2vBgveDKvOTgksSSVOfEvMSiSgYr0nW65eekpBZ5pjBYkq43LLWoODM/j8GaaK3+QMuKS4JSk1Mzy1JTQjJzU0nwrU9icYlnXnFJYl5yqncqKb71zS9K9SxJzS32zwtOLSpLLSLByXDfhgNxUW5iUTaDK/GaU5Pz81KAUeOcn1uQWJRZnJ8H8jTQD7kFkMjmYmAQAiqERgPIjSALGQSBUgZArAdSs0vow/TAu++d15z5lHzxxcoERobJf1m8Ht276LLV0/nQnVyOC0BFqqcqGRgYGfgYmEFauBkYDrzrn7B5SzCDEFCUF4jZGRhuA2V8HQM8fR39QIoY3EzdwsDK0UA1EMsh8QOAWBuLuplAbIbER3cWIwMrg8lOk3OMTCzt0s9eBW2bnTARiKcEBGAoDQIbwMjAfJrhegNOWaatD/eoM9wLYd+tVs/hO1n/X9VcpR972aCyjAwMDUg+BwAu7RrrTwMAAA==",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 6,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1",
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/outlook.office365.com/Bo\u00eete d'envoi.msf" : 
+	{
+		"ewsId" : "AQMkADBiOTAxMmQxLWI2YTUtNDZlNC05YWMyLWYwOThhNmQyYWEANzkALgAAA7oS8JdR3e9DrMzyY9HoqWABAJP9BEri3tFEtUlDwtxtCNAAAAIBCwAAAA==",
+		"ewsSyncStateToken" : "H4sIAAAAAAAEAGNg4GAAAotqE0tHE2NTA0ddZ3NHC10TR2djXSdnJ2ddNyMnC2cnczdLU1OD2vBgveDKvOTgksSSVOfEvMSiSgYr0nW65eekpBZ5pjBYkq43LLWoODM/j8GaaK3+QMuKS4JSk1Mzy1JTQjJzU0nwrU9icYlnXnFJYl5yqncqKb71zS9K9SxJzS32zwtOLSpLLSLByXDfhgNxUW5iUTaDK/GaU5Pz81KAUeOcn1uQWJRZnJ8H8jTQD7kFkMjmYmAQAiqERgPIjSALGQSBUgZArAdSs0vow/TAu++d15z5lHzxxcoERobJf1m8Ht276LLV0/nQnVyOCyBVjNxAzMDHwAziANkH3vVP2LwlmEEIKMoLxOwMDJOAMr6OAZ6+jn4gRQxupm5hYOVoIACI5bCIo4M8IJZA4qM7KwgsysjAfJrhehvDvRD23Wr1HL6T9f9VzVX6sZcNKsuA6mAAYwAYbAYDAAA=",
+		"expungedBytes" : 0,
+		"flags" : 2052,
+		"folderSize" : -1,
+		"indexingPriority" : "-1",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1",
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/outlook.office365.com/Bo\u00eete de r\u00e9ception.msf" : 
+	{
+		"ewsId" : "AQMkADBiOTAxMmQxLWI2YTUtNDZlNC05YWMyLWYwOThhNmQyYWEANzkALgAAA7oS8JdR3e9DrMzyY9HoqWABAJP9BEri3tFEtUlDwtxtCNAAAAIBDAAAAA==",
+		"ewsSyncStateToken" : "H4sIAAAAAAAEAJWTf2xTVRTH7zm3dgvIEhaiQQwMdEuWUJiydr+wpO+tTYpsnL6yzUBFSnv/mKOvy+tzpptsQyGSCIpZjQnlhz/4kTGCUZkDFkMZJJiULE6iiQL7A2URpyKIGWYBvQ+JEuQPepPPH+fc7/fec+55j7F8JldlR3mVp3yRs8zjUCs8lY5yj7rIoaiK6vA9rVSqSoWvyuksW98UXBBM6pGgGTaFGtbDRpJV5+70xddFheGPsqrcvY3CSDTHdVbzwNbl8rKEqYmIaG4T0RXNMZFDt8vCCdOvJ8ywHhHPily6rYsbwm+KWGK5HhRGmzByKPnfbpskRixstDDvg5tFJK5H5WjUeKw1bDQn4rrVtOwh1vrPsKcwViiFd8Zg1WhdyKbLrTLJAktzrPC3dwMXrqgHz1yLjPzYuwZYz03b0oujI7X9fnXofCz/S0sFD0tYAeNWMJWxzK9vbfv0cJAVyuw0SR5jk8hYnYf8dZ56S8R8Tl/jbfk9609JBv6LSdJ7H91ReZ7rrvjespBxnl5yQFnoJtuu8biu7V7jDEhegD24OqMFglrDSi20lvieLZ2k7Xv8UlYybOu7WvCI9skOvUgyl/e76pWBWWQbmH38RX405VO2v0za4Hczv5aMapnY5mUSghOaubjfXPyZtiFavCFaQtopdU5Gcko7PV7tlQS07Nj1Usl8ul+hsJ2v3JviqwKXIISPToeZUAouIv58UwvBLm5PC+gAVSktIvzpF4JXsGQcHSH8to1gPW4cw012TL1N0Im1LehrxMEkjiSJ4ENI4juNcBYU2CrDdnT9AARu2EgYuYav2fBWmKADC6biY92W2+1F335cJUDAPviZCLumQRFo0rqXlxZXgwuH9uOZYeIVf53kleYSwo8H0D6JF94jOAwBrBqDGvgKLhI+c5a49sb3BEd456ub4BB2Xca+WXhwKcFHOKUWCxrkocfgOs77Ap6AuZAldM8hmMDQeVx9DrqhGJ6DrfAB4US9VB7nr59IwWYUndjSgLEejHtlNoNv1sL70EeQxskU3kzL3En5gOoW+B3aYRvIsv4ABxjWSxa2E5yGh2AteGGCcNiNV1vxRi+BHfkMfFLFdAgHZxPk4VPnsKYLd9bj7vnyCbIMX0rhkUMwBN/AZaL/z0+7/fkB41k2dIWNrsgbLOnKr+tZeKt957wbn9vv7I6tY913/Rl/A+tEOsRvBQAA",
+		"expungedBytes" : 0,
+		"flags" : 4100,
+		"folderSize" : -1,
+		"indexingPriority" : "50",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 100,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1",
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/outlook.office365.com/Brouillons.msf" : 
+	{
+		"ewsId" : "AQMkADBiOTAxMmQxLWI2YTUtNDZlNC05YWMyLWYwOThhNmQyYWEANzkALgAAA7oS8JdR3e9DrMzyY9HoqWABAJP9BEri3tFEtUlDwtxtCNAAAAIBDwAAAA==",
+		"ewsSyncStateToken" : "H4sIAAAAAAAEAGNg4GAAAotqE0tHE2NTA0ddZ3NHC10TR2djXSdnJ2ddNyMnC2cnczdLU1OD2vBgveDKvOTgksSSVOfEvMSiSgYr0nW65eekpBZ5pjBYkq43LLWoODM/j8GaaK3+QMuKS4JSk1Mzy1JTQjJzU0nwrU9icYlnXnFJYl5yqncqKb71zS9K9SxJzS32zwtOLSpLLSLByXDfhgNxUW5iUTaDK/GaU5Pz81KAUeOcn1uQWJRZnJ8H8jTQD7kFkMjmYmAQAiqERgPIjSALGQSBUgZArAdSs0vow/TAu++d15z5lHzxxcoERobJf1m8Ht276LLV0/nQnVyOCyBVjPxAzMDHwAzicDMwHHjXP2HzlmAGIaAoLxCzMzBMAsr4OgZ4+jr6gRQxuJm6hYGVo4EAIJbDIo4O8oBYAomP7qwgsCgjA/NphuttDPdC2Her1XP4Ttb/VzVX6cdeNqgsA6qDAbL2SS0GAwAA",
+		"expungedBytes" : 0,
+		"flags" : 1028,
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1",
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/outlook.office365.com/Courrier ind\u00e9sirable.msf" : 
+	{
+		"ewsId" : "AQMkADBiOTAxMmQxLWI2YTUtNDZlNC05YWMyLWYwOThhNmQyYWEANzkALgAAA7oS8JdR3e9DrMzyY9HoqWABAJP9BEri3tFEtUlDwtxtCNAAAAIBFAAAAA==",
+		"ewsSyncStateToken" : "H4sIAAAAAAAEAGNg4GAAAotqE0tHE2NTA0ddZ3NHC10TR2djXSdnJ2ddNyMnC2cnczdLU1OD2vBgveDKvOTgksSSVOfEvMSiSgYr0nW65eekpBZ5pjBYkq43LLWoODM/j8GaaK3+QMuKS4JSk1Mzy1JTQjJzU0nwrU9icYlnXnFJYl5yqncqKb71zS9K9SxJzS32zwtOLSpLLSLByXDfhgNxUW5iUTaDK/GaU5Pz81KAUeOcn1uQWJRZnJ8H8jTQD7kFkMjmYmAQAiqERgPIjSALGQSBUgZArAdSs0vow/TAu++d15z5lHzxxcoERobJf1m8Ht276LLV0/nQnVyOCyBVjCJAzMDHwAzicDMwHHjXP2HzlmAGIaAoLxCzMzCcAMr4OgZ4+jr6gRQxuJm6hYGVo4EMIJZD4gcAsQQWdW1AbIbER3cWGwPz7jun3mCIB4FVMzIwn2a43oZPNm0Gw70Q9t1q9Ry+k/X/Vc1V+rGXDSobz8DQgORNABPtRK08AwAA",
+		"expungedBytes" : 0,
+		"flags" : 1073741828,
+		"folderSize" : -1,
+		"indexingPriority" : "-1",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 1,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1",
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/outlook.office365.com/\u00c9l\u00e9ments envoy\u00e9s.msf" : 
+	{
+		"ewsId" : "AQMkADBiOTAxMmQxLWI2YTUtNDZlNC05YWMyLWYwOThhNmQyYWEANzkALgAAA7oS8JdR3e9DrMzyY9HoqWABAJP9BEri3tFEtUlDwtxtCNAAAAIBCQAAAA==",
+		"ewsSyncStateToken" : "H4sIAAAAAAAEAJXUCUyURxQA4P9nHwW5LEerRFkFrFojuhQWWAjHskIFBX7eUi61sIUtrri7sLtgKIoInghCQwtSBS1Fo1zSArYeVGsVtAJCKoInFu+0INJSL9Q+rGmMpolM8mUyM+/lzcskwzCGDA23dGeR2NlJKBA7SFzFbg7OYomTg6/EV+Lg/4Gvm8TX1V8kFApWRUjnSNNUcVKdTCeXyFQyTRrjPvZMf/XyeLkmIJ4RjT03XK7RKtQqxuONU0OomFaH8ji5IlUeH6ZQysfQ7UKZVheg0upkqjj5AvlYug1Sa+QBOrlSG6KSyjWpcs0YrvxftxFEo5RpEhm/N0+Wx6lV8fQ0ErUySaZRaNWq0aapB2XSv49txDAWFPjiGUbvOFqQMacjAZkzGnPQYrA49PJdSXXrUFzn7b2xLFP4BAL7rnTOawyQHLukNOwYjWLHEcaM4Y0ujBnm6EB+QX2DlLGgXVNiwDCG+gwTJOYCgsTBo0GMv9A//Hn4K2MPMAz/pTVHIuH1uGbac3lp/eq1WCoLVtx5e5gwMesm8M2KUtD+iGIFScMZ/Km/kNMwyzxjKTjcsqpBwXafbtKDjtcUuSQPhd2BZWQHuMRXZoArv6wQRJMubgaPGy068D1aXwV+tk+E8GHlNF+Yn95UDNm1K/di5XzrAlIOd6ujezmWRYMpok9JAkz4vmcr2tVYs0QPPFUz2mFxv+UidilP3/syz+SUNweK1BFnVHUl5ZI8SEkTTcQViZm95Cqk/S0TwSrbnda4KSx+M8nFnHqnBtKIRWrBQhIEpTMrf8YKg+HTpBUqy3IPwqmByX/BufFZeTikjJlNHGC4+btB9j4vy9sWt3gFbfEK5uCx7JE/jLS48jlWD/WFewTEEQ3DApNIMli0zNmNlgWxG0kOTGqzngI2MdZ1yG83X0kywNbxqxqwd+/rw9n7qrPJWnCv4kzQq6itlJSB5MR6PgQXuJsD2ofrY7S7FRAD+HjGOikk3P4TYFnG7SJMfLqpl1wF9bYpE0DTanoRtRd21ZMG1F11tCG2kL6kl4erNvDXkY2QqTJqxTUrz4eTKNgwOaUPNrkoU3Cz6OwZ0oF5phvOkR7Iv7M/Gwq2jHfCLx2LjYgxlsi21pI6LHtQcoZ04jfNHTfITXYXL4m3jZfqP5WDauH2qdjQWdZG2nH/NnEAWQA9t9YWYu/IuMOkCX4rOpwDfZL7ArxePj2YhOCdRQnzSQAOXDaJIJE4uNGujZzBe2ujqkgtDic3PxtObgF80O8jJeEcy0M9KzAixgh6j1yIG4zTM/0ajaDyIxKBJgsqbIgtmN0v7mXNeaVsBq9mmVhv2Mc32YTj8J0CU0/ihZOvx+0jdWC3Zt1MmNZsOQtmRmgu4ty3L3WSX9HFr0tDtOjh/bkN4YNnq8Vx9Eq49ge5hz4Pq+vJAfR7X+lEPNlAbMp/2JT/GM+Wh5wtD+VwIReVSbKQC73+mIxg6IHsQTKEaFxlQIxYKc/y93d5MR0eHIbt8R4hTyF8yM8Toq0mlcLirn3tGBvFP0FO4ic/pc8ijrC0oeYoKKKTMyG5OzgDU/XfO05O4OprTnWkHrMdjnWRc5BzcmcD5s4LWkyWQHHkkQosGfy2ifyIO2KrEkkKW4ExgtoYQSOvYruAg91mz0qg0bV+Gh744uRyosRDF+b1kwFs6f9BRdQc99q/gs9/G5bhnWa61///aYtBaSRzJczg0PTVhkGFc59+Vmr3oOmtF6c0Z770Tf4D6OidYXwHAAA=",
+		"expungedBytes" : 0,
+		"flags" : 516,
+		"folderSize" : -1,
+		"indexingPriority" : "60",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 330,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1",
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/Mail/outlook.office365.com/\u00c9l\u00e9ments supprim\u00e9s.msf" : 
+	{
+		"ewsId" : "AQMkADBiOTAxMmQxLWI2YTUtNDZlNC05YWMyLWYwOThhNmQyYWEANzkALgAAA7oS8JdR3e9DrMzyY9HoqWABAJP9BEri3tFEtUlDwtxtCNAAAAIBCgAAAA==",
+		"ewsSyncStateToken" : "",
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderSize" : -1,
+		"indexingPriority" : "-1",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1",
+		"userSortOrder" : 4294967295
+	},
+	"/home/hokkaydo/.thunderbird/duy2kt7l.default-release/webaccountMail/outlook.office365.com" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 0,
+		"folderSize" : -1,
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"userSortOrder" : 4294967295
+	}
+}
