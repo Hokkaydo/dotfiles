@@ -1,4 +1,4 @@
-#files: 883	version: 5.9
+#files: 888	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -607,6 +607,7 @@ _comps=(
 'iftop' '_iftop'
 'ifup' '_net_interfaces'
 'ijoin' '_ispell'
+'img2sixel' '_img2sixel'
 'import' '_imagemagick'
 'inc' '_mh'
 'includeres' '_psutils'
@@ -812,6 +813,7 @@ _comps=(
 'mpc' '_mpc'
 'mplayer' '_mplayer'
 'mpstat' '_sysstat'
+'mpv' '_mpv'
 'mr' '_myrepos'
 'mrd' '_mtools'
 'mread' '_mtools'
@@ -893,6 +895,7 @@ _comps=(
 'opusdec' '_opustools'
 'opusenc' '_opustools'
 'opusinfo' '_opustools'
+'p11-kit' '_p11-kit'
 'p4' '_perforce'
 'p4d' '_perforce'
 'pacat' '_pulseaudio'
@@ -967,6 +970,7 @@ _comps=(
 'ping6' '_ping'
 'pkgadd' '_pkgadd'
 'pkg-config' '_pkg-config'
+'pkgfile' '_pkgfile'
 'pkginfo' '_pkginfo'
 'pkgrm' '_pkgrm'
 'pkill' '_pgrep'
@@ -1330,6 +1334,7 @@ _comps=(
 'true' '_nothing'
 'truncate' '_truncate'
 'truss' '_truss'
+'trust' '_trust'
 'tryaffix' '_ispell'
 'tty' '_tty'
 'ttyctl' '_ttyctl'
@@ -1731,22 +1736,23 @@ autoload -Uz _aur _aur_local_packages _aur_packages _aur_repositories _bat \
             _cargo _checkupdates _code _coredumpctl _ctr \
             _curl _dkms _docker _dunst _dunstctl \
             _dust _eza _fastfetch _fuzzel _hostnamectl \
-            _hyprctl _hyprpm _insmod _journalctl _jp2a \
-            _jupyter _kernel-install _kitty _libinput _localectl \
-            _loginctl _lsmod _luarocks _luarocks-admin _machinectl \
-            _meson _mkinitcpio _networkctl _ninja _oomctl \
-            _paccache _pacdiff _paclist _paclog-pkglist _pacman \
-            _pacscripts _pacsearch _pacsort _pactree _pip \
-            _playerctl _pulseaudio _pwn _qpdf _r2 \
-            _rabin2 _radiff2 _rafind2 _ragg2 _rahash2 \
-            _rankmirrors _rasm2 _rax2 _rclone _resolvectl \
-            _rg _rmmod _run0 _rustup _sd_hosts_or_user_at_host \
-            _sd_machines _sd_outputmodes _sd_unit_files _sensors _sensors-detect \
-            _shtab _spt _sqv _swaync _swaync-client \
-            _swww _systemctl _systemd _systemd-analyze _systemd-delta \
-            _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run _systemd-tmpfiles \
-            _texdoc _timedatectl _tldr _tlp _tlp-radio-device \
-            _tlp-run-on _tlp-stat _udevadm _udiskie _udiskie-canonical_paths \
+            _hyprctl _hyprpm _img2sixel _insmod _journalctl \
+            _jp2a _jupyter _kernel-install _kitty _libinput \
+            _localectl _loginctl _lsmod _luarocks _luarocks-admin \
+            _machinectl _meson _mkinitcpio _mpv _networkctl \
+            _ninja _oomctl _p11-kit _paccache _pacdiff \
+            _paclist _paclog-pkglist _pacman _pacscripts _pacsearch \
+            _pacsort _pactree _pip _pkgfile _playerctl \
+            _pulseaudio _pwn _qpdf _r2 _rabin2 \
+            _radiff2 _rafind2 _ragg2 _rahash2 _rankmirrors \
+            _rasm2 _rax2 _rclone _resolvectl _rg \
+            _rmmod _run0 _rustup _sd_hosts_or_user_at_host _sd_machines \
+            _sd_outputmodes _sd_unit_files _sensors _sensors-detect _shtab \
+            _spt _sqv _swaync _swaync-client _swww \
+            _systemctl _systemd _systemd-analyze _systemd-delta _systemd-inhibit \
+            _systemd-nspawn _systemd-path _systemd-run _systemd-tmpfiles _texdoc \
+            _timedatectl _tldr _tlp _tlp-radio-device _tlp-run-on \
+            _tlp-stat _trust _udevadm _udiskie _udiskie-canonical_paths \
             _udiskie-mount _udiskie-umount _udisks2 _updpkgsums _upower \
             _varlinkctl _waylogout _wl-copy _wl-paste _wpctl \
             _yay _yazi _zathura _cdr _all_labels \

@@ -1,7 +1,7 @@
 mpd_music_dir = "$HOME/Music/"
-lyrics_directory = ~/.local/share/ncmpcpp/lyrics
-#mpd_host = "127.0.0.1"
-#mpd_port = "6601"
+#lyrics_directory = ~/.local/share/ncmpcpp/lyrics
+mpd_host = "127.0.0.1"
+mpd_port = "6600"
 mouse_list_scroll_whole_page = "yes"
 lines_scrolled = "1"
 

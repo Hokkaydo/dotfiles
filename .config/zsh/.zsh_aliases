@@ -137,6 +137,8 @@ alias history="cat ~/.config/zsh/.zsh_history"
 
 alias fin="ledger register"
 
+alias randomhash="tr -dc A-Za-z0-9 < /dev/urandom | head -c 32; echo"
+
 function gcce() {
   gcc "$1"
   ./a.out
@@ -187,4 +189,24 @@ function asan_off() {
 
 function listening() {
     netstat -nlp | grep $1
+}
+
+function benchmark() {
+    if [ $# -lt 2 ]; then
+        echo "Usage: $0 N \"command [args...]\""
+        return
+    fi
+
+    local n=$1
+    shift
+    local cmd=("$@")
+    local total=0
+
+    for i in $(seq 1 $n); do
+        local elapsed=$(LC_NUMERIC=C /usr/bin/time -f "%e" ${cmd[@]} 2>&1 >/dev/null)
+        total=$(awk -v t="$total" -v e="$elapsed" 'BEGIN { printf "%.6f", t+e }')
+    done
+
+    local avg=$(awk -v t="$total" -v n="$n" 'BEGIN { printf "%.6f", t/n }')
+    echo "Average time over $n runs: $avg seconds"
 }

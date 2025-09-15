@@ -2,7 +2,7 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 www.yourkit.com	0	1	1735381853	31536000
-raw.githubusercontent.com	0	0	1746817264	31536000
+raw.githubusercontent.com	0	0	1752181562	31536000
 gist.githubusercontent.com	0	0	1743543037	31536000
 aka.ms	0	1	1716659682	31536000
 download.yourkit.com	0	1	1735381853	31536000

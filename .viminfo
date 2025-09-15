@@ -10,19 +10,26 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Dernier motif de recherche  :
+~MSle0~/eralront
+
 # Historique ligne de commande (chronologie décroissante) :
 :q
-|2,0,1748699892,,"q"
+|2,0,1756059791,,"q"
+:w
+|2,0,1752065686,,"w"
 :q!
 |2,0,1748699889,,"q!"
 :wq
 |2,0,1747573405,,"wq"
 :pwd
 |2,0,1729334078,,"pwd"
-:w
-|2,0,1695237907,,"w"
 
 # Historique chaîne de recherche (chronologie décroissante) :
+?/eralront
+|2,1,1756059267,47,"eralront"
+?/compat
+|2,1,1749304585,47,"compat"
 
 # Historique expression (chronologie décroissante) :
 
@@ -32,261 +39,307 @@
 
 # Registres :
 ""1	LINE	0
-		active = true
-|3,1,1,1,1,0,1747573394,"	active = true"
+	Output directory: ./outputs/
+|3,1,1,1,1,0,1752065685,"Output directory: ./outputs/"
 "2	LINE	0
-		url = git@github.com:Hokkaydo/monitor-emissions-c.git
-|3,0,2,1,1,0,1747573393,"	url = git@github.com:Hokkaydo/monitor-emissions-c.git"
+	Input directory: dataset_480
+|3,0,2,1,1,0,1752065684,"Input directory: dataset_480"
 "3	LINE	0
-	[submodule "P3/-v"]
-|3,0,3,1,1,0,1747573393,"[submodule \"P3/-v\"]"
+	Training mode selected.
+|3,0,3,1,1,0,1752065684,"Training mode selected."
 "4	LINE	0
-		url = git@github.com:Hokkaydo/monitor-emissions-c.git
-|3,0,4,1,1,0,1747573123,"	url = git@github.com:Hokkaydo/monitor-emissions-c.git"
+		active = true
+|3,0,4,1,1,0,1747573394,"	active = true"
 "5	LINE	0
-		path = monitor-emissions-c
-|3,0,5,1,1,0,1747573123,"	path = monitor-emissions-c"
+		url = git@github.com:Hokkaydo/monitor-emissions-c.git
+|3,0,5,1,1,0,1747573393,"	url = git@github.com:Hokkaydo/monitor-emissions-c.git"
 "6	LINE	0
-	[submodule "monitor-emissions-c"]
-|3,0,6,1,1,0,1747573123,"[submodule \"monitor-emissions-c\"]"
+	[submodule "P3/-v"]
+|3,0,6,1,1,0,1747573393,"[submodule \"P3/-v\"]"
 "7	LINE	0
-		url = git@github.com:adrienbanse/monitor-emissions-c.git
-|3,0,7,1,1,0,1747573123,"	url = git@github.com:adrienbanse/monitor-emissions-c.git"
+		url = git@github.com:Hokkaydo/monitor-emissions-c.git
+|3,0,7,1,1,0,1747573123,"	url = git@github.com:Hokkaydo/monitor-emissions-c.git"
 "8	LINE	0
-		path = P3/monitor-emissions-c
-|3,0,8,1,1,0,1747573123,"	path = P3/monitor-emissions-c"
+		path = monitor-emissions-c
+|3,0,8,1,1,0,1747573123,"	path = monitor-emissions-c"
 "9	LINE	0
-	[submodule "P3/monitor-emissions-c"]
-|3,0,9,1,1,0,1747573122,"[submodule \"P3/monitor-emissions-c\"]"
+	[submodule "monitor-emissions-c"]
+|3,0,9,1,1,0,1747573123,"[submodule \"monitor-emissions-c\"]"
 "-	CHAR	0
 	, 
 |3,0,36,0,1,0,1695237900,", "
 
 # Marques dans le fichier :
-'0  1  0  ~/note
-|4,48,1,0,1748699892,"~/note"
-'1  1  11  ~/note
-|4,49,1,11,1748699889,"~/note"
-'2  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
-|4,50,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
-'3  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,51,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
-'4  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,52,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
-'5  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,53,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
-'6  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,54,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
-'7  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,55,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
-'8  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,56,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
-'9  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,57,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+'0  50  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,48,50,0,1756059791,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'1  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,49,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'2  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,50,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'3  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,51,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'4  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,52,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'5  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,53,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'6  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,54,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'7  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,55,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+'8  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,56,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+'9  1  0  ~/.local/scripts/change_wp.sh
+|4,57,1,0,1750177737,"~/.local/scripts/change_wp.sh"
 
 # Liste de sauts (le plus récent en premier) :
--'  1  0  ~/note
-|4,39,1,0,1748699892,"~/note"
--'  1  11  ~/note
-|4,39,1,11,1748699889,"~/note"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
-|4,39,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
-|4,39,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
-|4,39,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.gitmodules
-|4,39,1,0,1747573579,"~/dev/epl/Q8/LINMA2710/.gitmodules"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573429,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573405,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  14  1  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,14,1,1747573395,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/config
-|4,39,1,0,1747573389,"~/dev/epl/Q8/LINMA2710/.git/config"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
--'  1  0  ~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD
-|4,39,1,0,1747573180,"~/dev/epl/Q8/LINMA2710/.git/ORIG_HEAD"
+-'  50  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,50,0,1756059791,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059785,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,56,0,1756059267,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,56,0,1756059267,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059256,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/change_wp.sh
+|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/.local/scripts/wallpaper.sh
+|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+	*	1756059790	0
+	"	50	0
+
+> ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+	*	1752065687	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.local/scripts/change_wp.sh
+	*	1750177735	0
+	"	1	0
+
+> ~/.local/scripts/wallpaper.sh
+	*	1750177719	0
+	"	1	0
+
+> ~/AndroidStudioProjects/Presenter/gradle.properties
+	*	1749305861	0
+	"	1	0
+
+> ~/AndroidStudioProjects/Presenter/local.properties
+	*	1749305856	0
+	"	1	0
+
+> ~/AndroidStudioProjects/Presenter/app/build.gradle.kts
+	*	1749305844	0
+	"	1	0
+
+> ~/AndroidStudioProjects/Presenter/settings.gradle.kts
+	*	1749305827	0
+	"	1	0
+
+> ~/AndroidStudioProjects/Presenter/build.gradle.kts
+	*	1749305822	0
+	"	1	0
+
+> ~/AndroidStudioProjects/Presenter/app/src/main/AndroidManifest.xml
+	*	1749305800	0
+	"	50	0
+
+> ~/AndroidStudioProjects/Presenter/app/src/main/java/be/hokkaydo/presenter/VolumeKeyService.kt
+	*	1749304544	0
+	"	1	0
 
 > ~/note
 	*	1748699891	0

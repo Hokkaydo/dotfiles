@@ -21,7 +21,7 @@
                       }
         },
         "actions":  {
-            "on-click-right": "mode",
+            "on-click-right": "shift_up",
             "on-click-forward": "tz_up",
             "on-click-backward": "tz_down",
             "on-scroll-up": "shift_up",

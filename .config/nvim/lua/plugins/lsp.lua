@@ -38,6 +38,7 @@ return {
                 end,
             })
 
+            
             -- ======================= mason setup ============================
             -- local capabilities = require('blink.cmp').get_lsp_capabilities() 
             local capabilities = require('cmp_nvim_lsp').default_capabilities()
@@ -45,7 +46,7 @@ return {
             require('mason-lspconfig').setup({
                 -- Replace the language servers listed here
                 -- with the ones you want to install
-                ensure_installed = { 'clangd', 'cmake', 'lua_ls', 'html', 'rust_analyzer', 'pyright', 'asm_lsp', 'cssls' },
+                ensure_installed = { 'clangd', 'cmake', 'lua_ls', 'html', 'rust_analyzer', 'pyright', 'asm_lsp', 'cssls', 'ltex' },
                 automatic_installation = true,
                 handlers = {
                     function(server_name)

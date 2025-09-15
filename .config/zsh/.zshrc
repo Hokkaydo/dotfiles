@@ -23,6 +23,7 @@ export DMENU='fuzzel'
 export IRQBALANCE_ARGS="--allcpus"
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=false
 export MANPAGER="nvim +Man!"
+export LIBTORCH=/usr/share/libtorch/
 
 #export JAVA_HOME="/usr/bin/java"
 
