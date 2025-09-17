@@ -81,10 +81,6 @@ alias tar="tar -xvf"
 #alias pip="pipx"
 #alias pip3="pipx"
 
-# Remove
-alias rmr="rm -rf"
-alias rm="rm"
-
 # Clear
 alias cl="clear"
 
@@ -142,6 +138,7 @@ alias randomhash="tr -dc A-Za-z0-9 < /dev/urandom | head -c 32; echo"
 function gcce() {
   gcc "$1"
   ./a.out
+  rm a.out
 }
 function mkcd() {
     mkdir -p "$1"
