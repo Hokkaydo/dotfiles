@@ -127,7 +127,7 @@ alias pkginfo="yay -Qi"
 alias python='python3.13'
 alias py='python'
 alias rate="upower -d | grep "energy-rate" | head -n 1 | cut -d: -f2 | cut -d ' ' -f10-"
-alias battery="upower -d | grep -E 'energy-|capacity' | grep -vE 'empty|rate' | head -3"
+alias battery="upower -d | grep -E 'energy-|capacity-|time' | grep -vE 'energy-empty|rate' | head -4"
 alias capacity="upower -d | grep -E 'capacity' | cut -d ' ' -f17"
 alias history="cat ~/.config/zsh/.zsh_history"
 
