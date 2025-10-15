@@ -28,7 +28,7 @@ export LIBTORCH=/usr/share/libtorch/
 #export JAVA_HOME="/usr/bin/java"
 
 export SSLKEYLOGFILE="/home/hokkaydo/sslkey"
-export PYTHONPATH="/usr/share/aima-python3"
+export PYTHONPATH="$PYTHONPATH:/usr/share/aima-python3:/usr/share/gmsh/api/python:/home/hokkaydo/dev/epl/Memoire/slim4/build/"
 
 # Fetch
 #nitch  # nitch

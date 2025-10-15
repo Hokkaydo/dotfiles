@@ -132,4 +132,6 @@ AndroidStudioProjects/*
 .skiko/
 .software/
 .config/chromium
-slim4/
+.gmshrc
+.config/ParaView
+.platformio/
