@@ -218,6 +218,7 @@ python-utils
 python-websockets
 python-z3-solver
 qbittorrent
+qgis
 qrencode
 qt5-wayland
 qt6-wayland

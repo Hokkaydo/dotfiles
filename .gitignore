@@ -33,6 +33,7 @@ Zotero/
 .jdks/
 .jupyter/
 .local/
+!.local/scripts
 .m2/
 *history
 .minecraft/
@@ -135,3 +136,8 @@ AndroidStudioProjects/*
 .gmshrc
 .config/ParaView
 .platformio/
+.config/ParaView/
+.software/
+.config/software/
+.config/nvim/lazy-lock.json
+.config/software/
