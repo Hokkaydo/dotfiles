@@ -43,7 +43,7 @@ for FILE in "$@"; do
         continue
     fi
 
-    url="\nhttps://hokkaydo.be/notes/$BASENAME"
+    url="https://hokkaydo.be/notes/$BASENAME"
     wl-copy "$(wl-paste)$(echo -e -n "$url")"
     notify-send "$BASENAME uploaded"
 done

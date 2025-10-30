@@ -32,8 +32,8 @@ Zotero/
 .java/
 .jdks/
 .jupyter/
-.local/
-!.local/scripts
+.local/share
+.local/state
 .m2/
 *history
 .minecraft/
@@ -141,3 +141,7 @@ AndroidStudioProjects/*
 .config/software/
 .config/nvim/lazy-lock.json
 .config/software/
+.local/bin/
+.local/lib/
+.local/include/
+.local/pipx/
