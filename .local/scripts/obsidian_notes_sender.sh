@@ -2,13 +2,18 @@
 
 wl-copy -c
 
-MD2PDF_DIR = "$HOME/.local/md2pdf"
+MD2PDF_DIR="$HOME/.local/scripts/md2pdf"
 
 for FILE in "$@"; do
     FILENAME="${FILE// /_}"                      # replace spaces by underscores
     BASENAME=$(basename "$FILENAME")             # just the filename
     EXT="${BASENAME##*.}"                        # file extension
     NAME="${BASENAME%.*}"                        # name without extension
+
+    if [[ "$BASENAME" != *"."* ]]; then
+        notify-send "Invalid file $BASENAME"
+        continue
+    fi
 
     # If Markdown: build a PDF
     if [[ "$EXT" == "md" ]]; then
@@ -30,7 +35,7 @@ for FILE in "$@"; do
         fi
 
         FILE="$PDF_PATH"
-        FILENAME="$NAME.pdf"
+        BASENAME="$NAME.pdf"
     fi
 
     scp "$FILE" "hokkaydo@hokkaydo.be:/home/hokkaydo/www/notes/$BASENAME"
