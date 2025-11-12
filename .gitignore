@@ -145,3 +145,8 @@ AndroidStudioProjects/*
 .local/lib/
 .local/include/
 .local/pipx/
+.config/obs-studio/logs/
+.config/obs-studio/plugin_config/
+.config/obs-studio/profiler_data/
+.config/OSP/
+.ParaProf/

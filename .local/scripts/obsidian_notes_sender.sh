@@ -38,7 +38,7 @@ for FILE in "$@"; do
         BASENAME="$NAME.pdf"
     fi
 
-    scp "$FILE" "hokkaydo@hokkaydo.be:/home/hokkaydo/www/notes/$BASENAME"
+    scp -4 "$FILE" "hokkaydo@hokkaydo.be:/home/hokkaydo/www/notes/$BASENAME"
     if [[ "$EXT" == "md" ]]; then
         rm "$FILE"
     fi

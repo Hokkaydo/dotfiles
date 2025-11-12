@@ -35,6 +35,7 @@ application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 application/pdf=firefox.desktop
+application/x-osptracker=tracker.desktop
 
 [Added Associations]
 application/octet-stream=code.desktop;
