@@ -150,3 +150,8 @@ AndroidStudioProjects/*
 .config/obs-studio/profiler_data/
 .config/OSP/
 .ParaProf/
+.cargo/
+.emacs.d/
+vmware/
+Kooha/
+.thunderbird/
