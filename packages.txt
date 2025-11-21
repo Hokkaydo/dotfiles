@@ -71,7 +71,6 @@ gparted
 gradle
 grim
 grub
-gtk-engine-murrine
 gunicorn
 hashcat
 hplip
@@ -135,6 +134,7 @@ mtools
 nano
 nasm
 nautilus
+nbtscan
 ncdu
 ncmpcpp
 neovim
@@ -160,6 +160,7 @@ opencl-mesa
 openmp
 openssl-1.1
 openvpn
+orca
 os-prober
 otf-font-awesome
 pamixer
@@ -187,6 +188,7 @@ python-fastapi
 python-flask
 python-flask-cors
 python-fsspec
+python-geopandas
 python-graphviz
 python-ipykernel
 python-ipympl
@@ -217,6 +219,7 @@ python-termcolor
 python-utils
 python-websockets
 python-z3-solver
+python-zeep
 qbittorrent
 qgis
 qrencode
@@ -302,7 +305,9 @@ valgrind
 vi
 vim
 vlc
+vlc-plugin-ffmpeg
 vlc-plugin-x264
+vlc-plugins-visualization
 vulkan-intel
 vulkan-tools
 waybar

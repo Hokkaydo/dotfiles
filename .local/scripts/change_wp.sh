@@ -4,7 +4,7 @@ set -x
 supported_formats=("jpeg" "png" "gif" "pnm" "tga" "tiff" "webp" "bmp" "farbfeld" "jpg")
 
 TMP="$(mktemp)"
-filename=$(ls -1 ~/Pictures/Wallpapers/eDP-1 | grep \\.jpg | while read A ; do  echo -en "$A\x00icon\x1f~/Pictures/Wallpapers/eDP-1/$A\n"; done | rofi -dmenu -theme ~/.config/rofi/themes/wallpaper.rasi)
+filename=$(ls -1 ~/Pictures/Wallpapers/eDP-1 | while read A ; do  echo -en "$A\x00icon\x1f~/Pictures/Wallpapers/eDP-1/$A\n"; done | rofi -dmenu -theme ~/.config/rofi/themes/wallpaper.rasi)
 
 # filename="$(cat $TMP)"
 
