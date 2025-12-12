@@ -131,9 +131,8 @@ alias battery="upower -d | grep -E 'energy-|capacity-|time' | grep -vE 'energy-e
 alias capacity="upower -d | grep -E 'capacity' | cut -d ' ' -f17"
 alias history="cat ~/.config/zsh/.zsh_history"
 
-alias fin="ledger register"
-
 alias randomhash="tr -dc A-Za-z0-9 < /dev/urandom | head -c 32; echo"
+alias ltspice="wine ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/XVIIx64.exe"
 
 function gcce() {
   gcc "$1"

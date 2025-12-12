@@ -157,3 +157,5 @@ Kooha/
 .thunderbird/
 .config/chromium/
 .config/tracy/
+.vmware/preferences
+.wget-hsts
