@@ -4,3 +4,6 @@
 [filesystem "Arch Linux|23.0.2|/dev/nvme0n1p9"]
 	timestampResolution = 2790 nanoseconds
 	minRacyThreshold = 0 nanoseconds
+[filesystem "JetBrains s.r.o.|21.0.9|/dev/nvme0n1p9"]
+	timestampResolution = 14028 nanoseconds
+	minRacyThreshold = 0 nanoseconds

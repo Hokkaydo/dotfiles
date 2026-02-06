@@ -124,7 +124,7 @@ alias yr="yay -Rns"
 alias pkginfo="yay -Qi"
 
 
-alias python='python3.13'
+alias python='python3.14'
 alias py='python'
 alias rate="upower -d | grep "energy-rate" | head -n 1 | cut -d: -f2 | cut -d ' ' -f10-"
 alias battery="upower -d | grep -E 'energy-|capacity-|time' | grep -vE 'energy-empty|rate' | head -4"

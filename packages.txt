@@ -31,8 +31,10 @@ clevis
 cliphist
 cmake
 cowsay
+cpanminus
 cpio
 cppcheck
+cpupower
 cunit
 cups
 cups-pdf
@@ -50,6 +52,7 @@ dunst
 dust
 efibootmgr
 ettercap-gtk
+ex-vi-compat
 expect
 eza
 fastfetch
@@ -78,7 +81,6 @@ htop
 hypridle
 hyprland
 hyprlock
-hyprwayland-scanner
 inetutils
 inkscape
 intel-compute-runtime
@@ -155,10 +157,10 @@ nvm
 nwg-look
 obs-studio
 obsidian
+one_gadget
 opencl-clhpp
 opencl-mesa
 openmp
-openssl-1.1
 openvpn
 orca
 os-prober
@@ -166,9 +168,12 @@ otf-font-awesome
 pamixer
 papirus-icon-theme
 paraview
+patchelf
 pavucontrol
 perf
+perl-file-homedir
 perl-image-exiftool
+perl-yaml-tiny
 pipewire-alsa
 pipewire-pulse
 pkgfile
@@ -283,6 +288,7 @@ texlive-plaingeneric
 texlive-pstricks
 texlive-publishers
 texlive-xetex
+thermald
 thunderbird
 time
 tk
@@ -302,7 +308,6 @@ usbutils
 uvicorn
 v4l2loopback-dkms
 valgrind
-vi
 vim
 vlc
 vlc-plugin-ffmpeg

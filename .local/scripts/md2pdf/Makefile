@@ -21,3 +21,15 @@ all: $(patsubst %.md,%.pdf,$(wildcard *.md))
 	#@chmod 664 $@
 	@printf "$(GREEN) ✔ Successfully created $(BLUE)%s.pdf$(NC)\n" "$@"
 
+ combined.pdf:
+	@printf "$(YELLOW)--> Compiling: $(BLUE)%s$(NC)\n" "$@"
+	@docker run --rm --volume "$(PWD):/data" pandoc/extra \
+		*.md \
+		-o $@ \
+		--template eisvogel \
+		--syntax-highlighting=idiomatic \
+		--number-sections \
+		--toc
+	@printf "$(GREEN) ✔ Successfully created $(BLUE)%s$(NC)\n" "$@"
+
+.PHONY: combined.pdf

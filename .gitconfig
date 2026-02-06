@@ -1,11 +1,12 @@
 [core]
 	sshCommand = ssh -i ~/.ssh/id_rsa -F /dev/null
-	username = hokkaydo
+	username = Hokkaydo
 	autocrlf = input
 [user]
 	signingKey = 376BFA958247553CFFBD3A37CD9F7823016D9048
-	name = hokkaydo
-	email = “hokkaydo@users.noreply.github.com”
+	name = Hokkaydo
+	email = 42278077+Hokkaydo@users.noreply.github.com
+	mail = 
 [credential]
 	helper = store
 [alias]
@@ -17,3 +18,5 @@
 	autoSetupRemote = true
 [http]
 	postBuffer = 524288000
+[pull]
+	rebase = true
