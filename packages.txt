@@ -1,6 +1,7 @@
 aircrack-ng
 alsa-firmware
 alsa-utils
+aquamarine
 arp-scan
 asciiquarium
 aspell
@@ -26,6 +27,7 @@ ca-certificates
 cargo-llvm-cov
 cava
 cfitsio
+checksec
 chromium
 clevis
 cliphist
@@ -78,15 +80,19 @@ gunicorn
 hashcat
 hplip
 htop
+hyprgraphics
 hypridle
 hyprland
+hyprlang
 hyprlock
+hyprtoolkit
+hyprutils
+hyprwayland-scanner
 inetutils
 inkscape
 intel-compute-runtime
 jdk-openjdk
 jdk17-openjdk
-jdk21-openjdk
 john
 joyutils
 jq
@@ -128,6 +134,7 @@ macchina
 man-db
 mariadb
 meson
+moonlight-qt
 mpc
 mpd
 mpv
@@ -148,6 +155,7 @@ nftables
 nginx
 nm-connection-editor
 nmap
+nodejs
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -183,6 +191,7 @@ powertop
 prettier
 prettyping
 pwndbg
+pwninit
 pydf
 python-blessed
 python-cvxpy
@@ -232,7 +241,6 @@ qt5-wayland
 qt6-wayland
 radamsa
 radare2
-rclone
 resvg
 ripgrep
 rofi-emoji
@@ -241,6 +249,7 @@ ropper
 rpcbind
 rpi-imager
 rubygems
+rust-script
 rust-src
 samba
 scanmem
@@ -263,6 +272,7 @@ swww
 syncthing
 system-config-printer
 systemd-resolvconf
+tailscale
 tcpdump
 texlive-bibtexextra
 texlive-bin
@@ -340,5 +350,6 @@ yazi
 ydotool
 zathura
 zathura-pdf-poppler
+zig
 zip
 zsh

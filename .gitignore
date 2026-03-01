@@ -185,3 +185,4 @@ gurobi.lic
 .keras
 .pylintrc
 .rbql_init_source.js
+.git_tmp/
