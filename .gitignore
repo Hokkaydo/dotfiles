@@ -186,3 +186,4 @@ gurobi.lic
 .pylintrc
 .rbql_init_source.js
 .git_tmp/
+.copilot/
