@@ -1,0 +1,116 @@
+{
+  // Modules configuration
+  "clock": {
+    "format": "<span color=\"#7aa2f7\"> </span>{:%H:%M:%S - %d/%m}",
+    "format-alt": "<span color=\"#7aa2f7\"> </span>{:%d-%m-%Y}",
+    "interval": 1
+  },
+
+"bluetooth": {
+	"format": " {status}",
+	"format-connected": " {device_alias}",
+	"format-connected-battery": " {device_alias} {device_battery_percentage}%",
+	"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+},
+"hyprland/submap": {
+    "format": "✌️ {}",
+    "max-length": 30,
+    "tooltip": false
+},
+
+  "cpu": {
+    "format": "<span color=\"#7aa2f7\"> </span>{usage}%",
+    "interval": 2
+  },
+
+  "memory": {
+    "format": "<span color=\"#7aa2f7\"> </span>{used}GiB",
+    "interval": 2
+  },
+
+  "temperature": {
+    "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+    "critical-threshold": 80,
+    "format": "<span color=\"#7aa2f7\"> </span>{temperatureC}°C",
+    "format-critical": "<span color=\"#f7768e\"> </span>{temperatureC}°C",
+    "interval": 2
+  },
+
+  "pulseaudio": {
+    "scroll-step": 5, // %, can be a float
+    "format": "<span color=\"#7aa2f7\">{icon} </span>{volume}%",
+    "format-muted": "<span color=\"#f7768e\"> </span>Muted",
+    "format-icons": ["", "", ""],
+    "on-click": "pavucontrol"
+  },
+
+  "hyprland/window": {
+    "max-length": 48
+  },
+
+  "custom/kernel": {
+    "exec": "uname -r | cut -d '-' -f1",
+    "interval": "once",
+    "format": "<span color=\"#7aa2f7\"> </span>{}"
+  },
+	
+  "network": {
+    "interface": "wlan0",
+    "format": "{ifname}",
+    "format-wifi": "<span color=\"#7aa2f7\"> </span> {essid} ({signalStrength}%)",
+    "format-ethernet": "{ipaddr}/{cidr} 󰊗",
+    "format-disconnected": "", //An empty format will hide the module.
+    "tooltip-format-wifi": "{ipaddr}",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "<span color=\"yellow\">⚠</span> Disconnected ",
+    "format-alt" : "{ifname} : {ipaddr}/{cidr}",
+    "max-length": 50
+  },
+  "backlight": {
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+
+  "battery": {
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "format-icons": ["", "", "", "", ""],
+    "format-alt" : "<span color=\"#7aa2f7\">{icon} </span> {time}",
+    "format-charging": "<span color=\"#7aa2f7\"> </span>{capacity}%",
+    "format-plugged": "<span color=\"#7aa2f7\"> </span>{capacity}%",
+    "format": "<span color=\"#7aa2f7\">{icon}  </span>{}%",
+    "format-critical": "<span color=\"#f7768e\">{icon}  </span>{}%",
+    "format-warning": "<span color=\"orange\">{icon}  </span>{}%"
+  },
+
+  "custom/pacman": {
+    "exec": "$XDG_CONFIG_HOME/waybar/scripts/package-updates.sh",
+    "format": "<span color=\"#7aa2f7\"> </span>{}",
+    "interval": 600,
+    "signal": 1
+  },
+
+  "tray": {
+    "icon-size": 18,
+    "spacing": 8
+  },
+
+  "wlr/workspaces": {
+    "disable-scroll": true,
+    "on-click": "activate"
+  },
+
+  "mpd": {
+    "format": "<span color=\"#7aa2f7\">{stateIcon} </span>{artist} - {title}",
+    "format-paused": "",
+    "state-icons": {
+      "paused": "",
+      "playing": ""
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  // Modules configuration
+    "clock": {
+        "format": "<span color=\"#7aa2f7\"> </span>{:%R}",
+        "interval": 1,
+        "format-alt": "<span color=\"#7aa2f7\"> </span>{:%A, %d %B %Y (%T)}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+                    "mode"          : "year",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "right",
+                    "on-scroll"     : 1,
+                    "on-click-right": "mode",
+                    "format": {
+                              "months":     "<span color='#7aa2f7'><b>{}</b></span>",
+                              "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                              "weeks":      "<span color='#99ffdd'><b>S{}</b></span>",
+                              
+                              "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                              "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                      }
+        },
+        "actions":  {
+            "on-click-right": "shift_up",
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
+    },
+
+    "custom/arch": {
+        "format-icons": {
+            "exists": " ",
+            "none": ""
+        },
+        "format": " {icon}",
+        "return-type": "json",
+        "tooltip": false,
+        "interval": 600,
+        "exec": "sh ~/.local/scripts/checkupdates.sh",
+        "on-click": "kitty yay -Syu; pkill -RTMIN+8 waybar",
+        "signal": 8
+    },
+
+    "custom/wallpaper": {
+        "tooltip": false,
+        "format": "📄",
+        "on-click": "sh ~/.local/scripts/wallpaper.sh"
+    },
+
+    "hyprland/workspaces": {
+	    "format": "{name} {icon} ",
+	    "format-icons": {
+		    "1": "",
+		    "2": "",
+		    "3": "",
+		    "4": "",
+            "5": "",
+		    "6": "ඞ", 
+		    "active": "",
+		    "default": ""
+	    },
+        "persistent-workspaces": {
+            "eDP-1": [1, 2, 3, 4, 5],
+            "*": 5
+        }
+    },
+    
+    "bluetooth": {
+	    "format": "<span color='#7aa2f7'></span> {status}",
+	    "format-connected": "<span color='#7aa2f7'</span> {num_connections}",
+        "format-disabled": "<span color='#7aa2f7'></span> off",
+	    "format-connected-battery": " {device_alias} {device_battery_percentage}% ",
+	    "tooltip-format": "{device_enumerate}",
+	    "tooltip-format-connected": "{device_alias}    {device_address}", 
+	    "on-click": "blueman-manager",
+        "on-click-right": "rfkill toggle bluetooth"
+    },
+
+    "hyprland/submap": {
+        "format": "✌️ {}",
+        "max-length": 30,
+        "tooltip": false 
+    },
+
+    "cpu": {
+        "format": "<span color=\"#7aa2f7\"> </span>{usage}%",
+        "interval": 2
+    },
+
+    "memory": {
+        "format": "<span color=\"#7aa2f7\"> </span>{used}GiB",
+        "interval": 2
+    },
+
+    "temperature": {
+        "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+        "critical-threshold": 80,
+        "format": "<span color=\"#7aa2f7\"> </span>{temperatureC}°C",
+        "format-critical": "<span color=\"#f7768e\"> </span>{temperatureC}°C",
+        "interval": 2
+    },
+
+    "pulseaudio": {
+        "max-volume": 200,
+        "scroll-step": 1, // %, can be a float
+        "format": "<span color=\"#7aa2f7\">{icon} </span>{volume}%",
+        "format-muted": "<span color=\"#f7768e\"> </span>",
+        "format-icons": {
+            "headphones": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+        "on-click-right": "~/.local/scripts/volume.sh mute"
+    },
+
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
+    },
+
+    "hyprland/window": {
+        "max-length": 48
+    },
+
+    "custom/kernel": {
+        "exec": "uname -r | cut -d '-' -f1",
+        "interval": "once",
+        "format": "<span color=\"#7aa2f7\"> </span>{}"
+    },
+	
+    "network": {
+        //"interface": "wlo1",
+        "format": "{ifname}",
+        "format-wifi": "<span color=\"#7aa2f7\"> </span>{essid}",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-disconnected": "<span color='#7aa2f7'>󰖪 </span>No network",
+        "format-alt" : "{essid} : {ipaddr}/{cidr}",
+        "max-length": 50,
+        "tooltip-format": "{essid} {signalStrength}%"
+    },
+
+    "custom/notion": {
+        "format": " ",
+        "on-click": "firefox notion.so",
+        "tooltip": false
+    },
+
+    "backlight": {
+        "format": "{percent}% {icon} ",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "on-click-right": "sh ~/.local/scripts/sunset.sh toggle"
+    },
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "on-update": "sh ~/.config/waybar/scripts/battery_alert.sh",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip-format": "Battery health: {health}% - Cycles: {cycles}",
+        "format-alt" : "{power}W <span color=\"#7aa2f7\">{icon} </span> {time}",
+        "format-charging": "{power}W <span color=\"#7aa2f7\"> </span>{capacity}%",
+        "format-plugged": "{power}W <span color=\"#7aa2f7\"> </span>{capacity}%",
+        "format": "{power}W <span color=\"#7aa2f7\">{icon}  </span>{capacity}%",
+        "format-critical": "{power}W <span color=\"#f7768e\">{icon}  </span>{capacity}%",
+        "format-warning": "{power}W <span color=\"orange\">{icon}  </span>{capacity}%"
+    },
+
+    "custom/pacman": {
+        "exec": "$XDG_CONFIG_HOME/waybar/scripts/package-updates.sh",
+        "format": "<span color=\"#7aa2f7\"> </span>{}",
+        "interval": 600,
+        "signal": 1
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 8
+    }, 
+
+    "mpd": {
+        "format": "<span color=\"#7aa2f7\">{stateIcon} </span>{artist} - {title}",
+        "format-paused": "",
+        "state-icons": {
+        "paused": "",
+        "playing": ""
+        }
+    },
+
+
+    "custom/powermenu": {
+        "format": "",
+        "on-click": "sleep 0.1 && ~/.config/rofi/powermenu/powermenu.sh",
+        "tooltip": false	
+    },
+
+     
+    "custom/notification": {
+        "tooltip": true,
+        "format": "{icon}<big><sup></sup></big>",
+        "format-icons": {
+            "notification": "",
+            "none": "",
+            "dnd-notification": "",
+            "dnd-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+    },
+
+    "custom/spotify": {
+        "exec": "~/.local/scripts/song_helper.sh show",  
+        "format": "{}",
+        "interval": 1,
+        "on-click": "([ \"$(playerctl -l 2>&1)\" = \"No players found\" ] && spotify &) && (~/.local/scripts/song_helper.sh toggle)",
+        "on-click-right": "~/.local/scripts/song_helper.sh next",
+        "on-scroll-down": "~/.local/scripts/song_helper.sh prev",
+        "on-scroll-up": "~/.local/scripts/song_helper.sh next",
+        "tooltip": false
+    }
+}
+

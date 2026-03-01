@@ -1,0 +1,36 @@
+PWD = $(shell pwd)
+PANDOC_CMD = docker run --rm --volume "$(PWD):/data" pandoc/extra \
+    $^ \
+    -o $@ \
+    --template eisvogel \
+	--syntax-highlighting=idiomatic \
+    --number-sections \
+	--lua-filter=obsidian-callouts.lua \
+    --include-in-header=header.tex
+
+YELLOW   = \033[1;33m
+BLUE     = \033[0;34m
+GREEN    = \033[0;32m
+NC       = \033[0m 
+
+# Compile all markdown files to pdf of the parent folder
+all: $(patsubst %.md,%.pdf,$(wildcard *.md))
+
+%.pdf : %.md
+	@printf "$(YELLOW)--> Compiling: $(BLUE)%s$(NC)\n" "$@"
+	@$(PANDOC_CMD)
+	#@chmod 664 $@
+	@printf "$(GREEN) ✔ Successfully created $(BLUE)%s.pdf$(NC)\n" "$@"
+
+ combined.pdf:
+	@printf "$(YELLOW)--> Compiling: $(BLUE)%s$(NC)\n" "$@"
+	@docker run --rm --volume "$(PWD):/data" pandoc/extra \
+		*.md \
+		-o $@ \
+		--template eisvogel \
+		--syntax-highlighting=idiomatic \
+		--number-sections \
+		--toc
+	@printf "$(GREEN) ✔ Successfully created $(BLUE)%s$(NC)\n" "$@"
+
+.PHONY: combined.pdf
