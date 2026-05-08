@@ -33,4 +33,34 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="sftp://r-gpuster/" added="2026-03-16T09:47:23.209676Z" modified="2026-03-16T09:47:23.209684Z" visited="2026-03-16T09:47:23.209678Z">
+    <title>/ sur r-gpuster</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-03-16T09:47:23.209681Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://gpuster/" added="2026-03-30T07:18:16.396817Z" modified="2026-03-30T07:18:16.396833Z" visited="2026-03-30T07:18:16.396819Z">
+    <title>/ sur gpuster</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-03-30T07:18:16.396830Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://87.64.158.136:23/" added="2026-05-07T12:08:45.311188Z" modified="2026-05-07T12:08:45.311197Z" visited="2026-05-07T12:08:45.311191Z">
+    <title>/ sur 87.64.158.136</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-05-07T12:08:45.311194Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

@@ -149,9 +149,15 @@ if [[ -f "$HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
   ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=10
 fi
 
-# Soure Sub-String Search (if exists)
+# Source Sub-String Search (if exists)
 if [[ -f "$HOME/.config/zsh/plugins/zsh-history-substring-search.zsh" ]]; then
   source "$HOME/.config/zsh/plugins/zsh-history-substring-search.zsh" 2>/dev/null
+fi
+
+# Source NVM (if exists)
+if [[ -f "/usr/share/nvm/nvm.sh" ]];
+then
+    source "/usr/share/nvm/init-nvm.sh" 2>/dev/null
 fi
 
 # Created by `pipx` on 2024-03-14 11:39:09

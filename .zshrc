@@ -6,5 +6,6 @@
 
 path=('/home/hokkaydo/.juliaup/bin' $path)
 export PATH
+echo coucou du linux :3
 
 # <<< juliaup initialize <<<

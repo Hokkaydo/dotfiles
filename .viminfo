@@ -1,4 +1,4 @@
-# Ce fichier viminfo a été généré par Vim 9.1.
+# Ce fichier viminfo a été généré par Vim 9.2.
 # Vous pouvez l'éditer, mais soyez prudent.
 
 # Viminfo version
@@ -15,9 +15,9 @@
 
 # Historique ligne de commande (chronologie décroissante) :
 :q
-|2,0,1756059791,,"q"
+|2,0,1776368207,,"q"
 :w
-|2,0,1752065686,,"w"
+|2,0,1776368206,,"w"
 :q!
 |2,0,1748699889,,"q!"
 :wq
@@ -70,36 +70,82 @@
 |3,0,36,0,1,0,1695237900,", "
 
 # Marques dans le fichier :
-'0  50  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
-|4,48,50,0,1756059791,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
-'1  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
-|4,49,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
-'2  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
-|4,50,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
-'3  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
-|4,51,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
-'4  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
-|4,52,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
-'5  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
-|4,53,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'0  7  8  ~/.zshrc
+|4,48,7,8,1776368207,"~/.zshrc"
+'1  9  22  ~/.zshrc
+|4,49,9,22,1776368187,"~/.zshrc"
+'2  9  22  ~/.zshrc
+|4,50,9,22,1776368187,"~/.zshrc"
+'3  50  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,51,50,0,1756059791,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'4  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,52,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'5  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,53,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 '6  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
 |4,54,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
-'7  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
-|4,55,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
-'8  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
-|4,56,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
-'9  1  0  ~/.local/scripts/change_wp.sh
-|4,57,1,0,1750177737,"~/.local/scripts/change_wp.sh"
+'7  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,55,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'8  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,56,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+'9  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,57,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 
 # Liste de sauts (le plus récent en premier) :
+-'  7  8  ~/.zshrc
+|4,39,7,8,1776368207,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1776368195,"~/.zshrc"
+-'  9  22  ~/.zshrc
+|4,39,9,22,1776368187,"~/.zshrc"
+-'  9  22  ~/.zshrc
+|4,39,9,22,1776368187,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1776368178,"~/.zshrc"
 -'  50  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
 |4,39,50,0,1756059791,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  50  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,50,0,1756059791,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  50  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,50,0,1756059791,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  50  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,50,0,1756059791,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059785,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059785,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059785,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 -'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
 |4,39,1,0,1756059785,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 -'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
 |4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 -'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
 |4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  31576  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,31576,0,1756059269,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,56,0,1756059267,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,56,0,1756059267,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,56,0,1756059267,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,56,0,1756059267,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,56,0,1756059267,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,56,0,1756059267,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 -'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
 |4,39,56,0,1756059267,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 -'  56  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
@@ -112,6 +158,36 @@
 |4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 -'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
 |4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  27  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,27,0,1756059261,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059256,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059256,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
+|4,39,1,0,1756059256,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 -'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
 |4,39,1,0,1756059256,"~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict"
 -'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
@@ -131,6 +207,66 @@
 -'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
 |4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
 -'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065687,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
 |4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
 -'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
 |4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
@@ -146,154 +282,25 @@
 |4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
 -'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
 |4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/change_wp.sh
-|4,39,1,0,1750177737,"~/.local/scripts/change_wp.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
--'  1  0  ~/.local/scripts/wallpaper.sh
-|4,39,1,0,1750177725,"~/.local/scripts/wallpaper.sh"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
+-'  1  0  ~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output
+|4,39,1,0,1752065682,"~/dev/epl/Tutorat/LEPL1503-2026/P3-FacialRecognition/c/output"
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/.zshrc
+	*	1776368206	0
+	"	7	8
+	^	9	23
+	.	9	22
+	+	9	22
 
 > ~/dev/epl/Tutorat/LEPL1503-2026/P3-Spellchecker-v2/implementations/v1/sequential/wallon.dict
 	*	1756059790	0
