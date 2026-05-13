@@ -187,3 +187,8 @@ gurobi.lic
 .rbql_init_source.js
 .git_tmp/
 .copilot/
+.claude.json
+.claude/
+.ghcp-appmod
+.ropper
+.streamlit/credentials.toml
