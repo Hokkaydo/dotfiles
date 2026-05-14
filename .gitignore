@@ -192,3 +192,4 @@ gurobi.lic
 .ghcp-appmod
 .ropper
 .streamlit/credentials.toml
+.vscode-shared/

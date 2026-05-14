@@ -58,3 +58,8 @@ vim.opt.inccommand = 'split'
 
 -- Help with :make command for gcc
 vim.g.compiler_gcc_ignore_unmatched_lines = true
+
+-- Do not warn on unused languages 
+vim.g.loaded_node_provider = 0
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_ruby_provider = 0

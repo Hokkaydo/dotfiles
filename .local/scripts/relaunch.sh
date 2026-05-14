@@ -1,5 +1,5 @@
-#!/usr/bin/env sh
-killall waybar # Kill all instances of waybar
+#!/usr/bin/env bash
+killall waybar 2>/dev/null # Kill all instances of waybar
 waybar & # Launch statusbar
 
 killall swaybg
