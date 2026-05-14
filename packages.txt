@@ -7,6 +7,7 @@ asciiquarium
 aspell
 aspell-fr
 audacity
+awww
 base
 base-devel
 bash-completion
@@ -36,6 +37,7 @@ cowsay
 cpanminus
 cpio
 cppcheck
+cpptrace
 cpupower
 cunit
 cups
@@ -69,6 +71,8 @@ gdb
 ghidra
 gimp
 git
+git-lfs
+glow
 gnome-themes-extra
 gnome-tweaks
 gocr
@@ -78,6 +82,7 @@ grim
 grub
 gunicorn
 hashcat
+hexedit
 hplip
 htop
 hyprgraphics
@@ -93,6 +98,7 @@ inkscape
 intel-compute-runtime
 jdk-openjdk
 jdk17-openjdk
+jdk25-openjdk
 john
 joyutils
 jq
@@ -105,7 +111,6 @@ ledger
 less
 lib32-giflib
 lib32-gnutls
-lib32-gst-plugins-base-libs
 lib32-gtk3
 lib32-libgudev
 lib32-libjpeg-turbo
@@ -122,12 +127,12 @@ lib32-openal
 lib32-v4l-utils
 lib32-vulkan-intel
 libcanberra
-libreoffice-fresh
 linux
 linux-firmware
 linux-headers
 lldb
 lshw
+lua51
 luarocks
 lutris
 macchina
@@ -206,6 +211,7 @@ python-geopandas
 python-graphviz
 python-ipykernel
 python-ipympl
+python-jose
 python-jupyter-server-terminals
 python-matplotlib
 python-numba
@@ -216,18 +222,22 @@ python-pandas
 python-pip
 python-pipx
 python-plotly
+python-ply
 python-pwntools
 python-pycryptodome
 python-pygame
 python-pygments
+python-pynvim
 python-pyqt5
 python-pyqtgraph
+python-pytorch
 python-regex
 python-scapy
 python-scikit-image
 python-scipy
 python-seaborn
 python-statsmodels
+python-streamlit
 python-sympy
 python-termcolor
 python-utils
@@ -239,6 +249,7 @@ qgis
 qrencode
 qt5-wayland
 qt6-wayland
+r
 radamsa
 radare2
 resvg
@@ -268,7 +279,6 @@ strace
 sudo
 swaybg
 swaync
-swww
 syncthing
 system-config-printer
 systemd-resolvconf
@@ -308,6 +318,7 @@ tmux
 torbrowser-launcher
 traceroute
 tree
+tree-sitter-cli
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 typescript
