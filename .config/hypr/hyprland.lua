@@ -55,6 +55,9 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("sh ~/.local/scripts/relaunch.sh")
 end)
 
+hl.on("monitor.added", function()
+    hl.exec_cmd("sh ~/.local/scripts/relaunch.sh")
+end)
 
 -----------------------
 ---- LOOK AND FEEL ----
@@ -68,7 +71,7 @@ hl.config({
         kb_options = "compose:rctrl",
         kb_rules   = "",
 
-        follow_mouse = 0,
+        follow_mouse = 1,
 
         touchpad = {
             natural_scroll = true,
