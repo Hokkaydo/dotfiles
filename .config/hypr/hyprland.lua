@@ -52,6 +52,7 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("wl-paste --watch cliphist store")
     -- Allow gparted to open graphic interface
     hl.exec_cmd("xhost +SI:localuser:root")
+    hl.exec_cmd("sh ~/.local/scripts/relaunch.sh")
 end)
 
 
@@ -67,7 +68,7 @@ hl.config({
         kb_options = "compose:rctrl",
         kb_rules   = "",
 
-        follow_mouse = 1,
+        follow_mouse = 0,
 
         touchpad = {
             natural_scroll = true,
