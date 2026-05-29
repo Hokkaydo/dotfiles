@@ -53,14 +53,4 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="sftp://87.64.158.136:23/" added="2026-05-07T12:08:45.311188Z" modified="2026-05-07T12:08:45.311197Z" visited="2026-05-07T12:08:45.311191Z">
-    <title>/ sur 87.64.158.136</title>
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <bookmark:applications>
-          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-05-07T12:08:45.311194Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
 </xbel>

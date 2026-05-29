@@ -1,0 +1,1 @@
+{"binaries":["hallucinator-tui"],"binary_aliases":{},"cdylibs":[],"cstaticlibs":[],"install_layout":"cargo-home","install_prefix":"/home/hokkaydo/.cargo","modify_path":true,"provider":{"source":"cargo-dist","version":"0.30.3"},"source":{"app_name":"hallucinator-tui","name":"hallucinator","owner":"gianlucasb","release_type":"github"},"version":"0.2.0"}

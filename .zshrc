@@ -9,3 +9,5 @@ export PATH
 echo coucou du linux :3
 
 # <<< juliaup initialize <<<
+
+. "$HOME/.cargo/env"

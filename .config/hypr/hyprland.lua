@@ -28,9 +28,15 @@ hl.env("eDP_1_WALLPAPER_STORE_PATH", "/home/hokkaydo/.cache/eDP_1_current_wallpa
 hl.env("HDMI_A_1_WALLPAPER_STORE_PATH", "/home/hokkaydo/.cache/HDMI_A_1_current_wallpaper")
 hl.env("XCURSOR_SIZE", "24")
 
--- See https://wiki.hypr.land/Configuring/Basics/Monitors/
+-- Workspaces -- 
 require("monitor")
+for i = 1, 5 do 
+    hl.workspace_rule({workspace=tostring(i), monitor="eDP-1", default= (i == 1) })
+end
 
+for i = 6, 10 do 
+    hl.workspace_rule({workspace=tostring(i), monitor="HDMI-A-1", default= (i == 6) })
+end
 
 -------------------------------
 ---- AUTOSTART ----
@@ -53,10 +59,37 @@ hl.on("hyprland.start", function()
     -- Allow gparted to open graphic interface
     hl.exec_cmd("xhost +SI:localuser:root")
     hl.exec_cmd("sh ~/.local/scripts/relaunch.sh")
+    -- Force workspaces --
+    for i = 1, 5 do
+        hl.exec_cmd(string.format(
+            "hyprctl dispatch moveworkspacetomonitor %d eDP-1",
+            i
+        ))
+    end
+
+    for i = 6, 10 do
+        hl.exec_cmd(string.format(
+            "hyprctl dispatch moveworkspacetomonitor %d HDMI-A-1",
+            i
+        ))
+    end
 end)
 
 hl.on("monitor.added", function()
     hl.exec_cmd("sh ~/.local/scripts/relaunch.sh")
+        for i = 1, 5 do
+        hl.exec_cmd(string.format(
+            "hyprctl dispatch moveworkspacetomonitor %d eDP-1",
+            i
+        ))
+    end
+
+    for i = 6, 10 do
+        hl.exec_cmd(string.format(
+            "hyprctl dispatch moveworkspacetomonitor %d HDMI-A-1",
+            i
+        ))
+    end
 end)
 
 -----------------------
@@ -154,6 +187,7 @@ hl.config({
         new_status = "master",
     },
 })
+
 
 -- Example per-device config
 -- hl.device({

@@ -193,3 +193,4 @@ gurobi.lic
 .ropper
 .streamlit/credentials.toml
 .vscode-shared/
+.config/neo4j-desktop
