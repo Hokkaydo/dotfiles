@@ -194,3 +194,4 @@ gurobi.lic
 .streamlit/credentials.toml
 .vscode-shared/
 .config/neo4j-desktop
+.viminfo

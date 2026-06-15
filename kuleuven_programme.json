@@ -1,0 +1,1028 @@
+[
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H00Y2AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Privacy and Big Data: Lecture (B-KUL-H00Y2a)",
+        "code": "(B-KUL-H00Y2a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Liu Yunwen",
+          "Galvez Vizcaino Rafa"
+        ],
+        "content": "Content The course covers the following topics: Introduction to computer privacy and privacy engineering Database anonymity and privacy: differential privacy Computing over encrypted data and multiparty computation Privacy engineering FHE for machine learning Privacy and machine learning Privacy engineering in industry Privacy-preserving biometrics General Data Protection Regulation (GDPR), human rights legislation, relevant policy for Big Data, data protection impact assessments",
+        "course_materials": "Course materials Slides, courseware, articles and literature"
+      },
+      {
+        "title": "1 ECTS Privacy and Big Data: Practical Sessions (B-KUL-H00Y3a)",
+        "code": "(B-KUL-H00Y3a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "10 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Liu Yunwen",
+          "Galvez Vizcaino Rafa"
+        ],
+        "content": "Content The first three practical sessions will be devoted to group discussions and feedback on drafts of the assignment. Students work together on the assignment in teams of 4 people (see evaluation for more details). Students working together on the same team should be in different groups during the exercise session discussions, in order to maximize the feedback obtained from students in other groups. In the first session students will discuss their initial ideas for the assignment (description of their chosen application and initial identification of privacy issues). In the second session students will discuss all the privacy issues they identified, the challenges on the software engineering component of the assignment, and the initial ideas for recommendations. In the third session students will discuss an almost complete draft of their assignment and get a final round of feedback for further improvement. The last two practical sessions will be devoted to presentations of the assignments by the students. The presentations will be graded (4 points out of 20). Students get feedback on their presentation that they can incorporate in the final version of the assignment.",
+        "course_materials": "Course materials Slides, courseware, articles and literature"
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02A4AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "4 ECTS Robotics (B-KUL-H02A4a)",
+        "code": "(B-KUL-H02A4a)",
+        "metadata": {
+          "ects": "4 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Aertbeliën Erwin",
+          "Decré Wilm",
+          "Detry Renaud"
+        ],
+        "content": "Content Robotics – theory lectures (3 ects) Lectures cover: introduction to software development for robots robot kinematics and dynamics robot motion control and sensor-guided control, free-space and in-contact tasks trajectory optimization (based on numerical optimization techniques) dealing with uncertainty / estimation in robotics classical motion planning and learning methods for motion planning learning from demonstration Robotics – exercise and (virtual) laboratory sessions (1 ects) (Computer) exercises and interactive lab visits on the lecture material",
+        "course_materials": "Course materials The study material consists of lecture notes, including paper references and book excerpts."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/I0S75AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "2 ECTS Introduction to Object Oriented Programming: Lectures (B-KUL-I0S71a)",
+        "code": "(B-KUL-I0S71a)",
+        "metadata": {
+          "ects": "2 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "12 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "van Noort Vera"
+        ],
+        "content": "Content 1. Variables, expressions and statements 2. Conditional statements 3. Loops 4. Strings 5. Functions 6. Lists and tuples 7. More about functions and modules 8. Sets and dictionaries 9. Text files 10. Object Oriented Programming",
+        "course_materials": "Course materials Video’s with theoretical background via Toledo Slides via Toledo Summaries and quizzes via Toledo Handbook: The Practice of Computing Using Python, Global Edition (Third Edition), Punch and Enbody, Pearson, ISBN-13 978-1-292-16662-9"
+      },
+      {
+        "title": "1 ECTS Introduction to Object Oriented Programming: Exercises (B-KUL-I0S72a)",
+        "code": "(B-KUL-I0S72a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "20 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Baele Guy",
+          "Demeulemeester Jonas",
+          "Lutsik Pavlo",
+          "van Noort Vera"
+        ],
+        "content": "Content Python exercises are done through the online learning environment Dodona. Students obtain automated feedback.",
+        "course_materials": "Course materials Exercises on the Dodona platform."
+      },
+      {
+        "title": "1 ECTS Introduction to Object Oriented Programming: Project (B-KUL-I0S73a)",
+        "code": "(B-KUL-I0S73a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Assignment",
+          "hours": "30 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Baele Guy",
+          "Demeulemeester Jonas",
+          "Lutsik Pavlo",
+          "van Noort Vera"
+        ],
+        "content": "Content Students develop a Python project either in a small group or alone. There is no evaluation for this take-home assignment. The purpose is that students practice their Python programming skills.",
+        "course_materials": "Course materials The assignment will be made available on Toledo"
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02A3AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Constraint Solving: Lecture (B-KUL-H02A3a)",
+        "code": "(B-KUL-H02A3a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "20 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Guns Tias"
+        ],
+        "content": "Content Topics seen typically include, but are not limited to: - Introduction to constraint solving: model + solve - Modeling with global constraints - Advanced modeling techniques and viewpoints - Symmetries and dominance breaking - Solving technologies - Encoding to ILP/PB/SAT - Advanced topics in constraint solving",
+        "course_materials": "Course materials Study cost:76-100 euros ( The information about the study costs as stated here gives an indication and only represents the costs for purchasing new materials. There might be some electronic or second-hand copies available as well. You can use LIMO to check whether the textbook is available in the library. Any potential printing costs and optional course material are not included in this price. ) Slides and lecture material will be made available on the learning platform."
+      },
+      {
+        "title": "1 ECTS Constraint Solving: Exercises (B-KUL-H02K4a)",
+        "code": "(B-KUL-H02K4a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "20 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Guns Tias"
+        ],
+        "content": "Content The exercise sessions are related to the material of the course.",
+        "course_materials": "Course materials Exercises and necessary background material will be made available on the learning platform."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02D1AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "1,8 ECTS Genetic Algorithms and Evolutionary Computing: Lecture (B-KUL-H02D1a)",
+        "code": "(B-KUL-H02D1a)",
+        "metadata": {
+          "ects": "1,8 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Vannieuwenhoven Nick"
+        ],
+        "content": "Content High-level contents and materials Lecture 1: Introduction Lecture 2: Problems, representation, and variation Lecture 3: Population management Online module 1: Local search operators Online module 2: Multiobjective optimization and diversity promotion Online case study modules: Hands-on programming exercises Detailed contents Basics of evolutionary algorithms Exploration versus exploitation Computational and optimization problems Objective function Representation Constraints Variation operators Selection and elimination operators Hyperparameter self-adaptivity Local search operators Steepest descent Monte Carlo sampling k-opt Multi-objective optimization and diversity promotion Crowding Island model Fitness sharing Scalarization (fixed tradeoff) Pareto front",
+        "course_materials": "Course materials Study cost:51-75 euros ( The information about the study costs as stated here gives an indication and only represents the costs for purchasing new materials. There might be some electronic or second-hand copies available as well. You can use LIMO to check whether the textbook is available in the library. Any potential printing costs and optional course material are not included in this price. ) Slides, online videos, textbook (e-book)."
+      },
+      {
+        "title": "0,6 ECTS Genetic Algorithms and Evolutionary Computing: Exercises (B-KUL-H00H1a)",
+        "code": "(B-KUL-H00H1a)",
+        "metadata": {
+          "ects": "0,6 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "10 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Vannieuwenhoven Nick"
+        ],
+        "content": "Content The exercises consists of four guided sessions during which (most of) the group phase of the project is executed. For the group phase you will be assigned to balanced groups of 3-5 students. Attendance to the exercise sessions is mandatory , and non-participation results in a final mark of NA. In the four exercise sessions, a basic evolutionary algorithm will be designed. The content of the sessions are: Design of an elementary evolutionary algorithm Computer implementation of an evolutionary algorithm in Python Experimentation with the algorithm and reporting Reading reports and providing peer feedback to other groups",
+        "course_materials": null
+      },
+      {
+        "title": "1,6 ECTS Genetic Algorithms and Evolutionary Computing: Project (B-KUL-H08M3a)",
+        "code": "(B-KUL-H08M3a)",
+        "metadata": {
+          "ects": "1,6 ECTS Credits",
+          "language": "English",
+          "type": "Assignment",
+          "hours": "40 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Vannieuwenhoven Nick"
+        ],
+        "content": "Content The students undertake a two-phase project. The first phase is a group work in which the students analyze a model problem and design, implement, and test an evolutionary algorithm in the Python programming language. This phase is concluded by a peer feedback assignment in which the students analyse one or more designs from other teams and provide feedback on them. The second phase is performed individually by each student, in which they analyze the results from their group phase, and based on the acquired insights, design, implement, and test improved variation and local search operators, selection mechanisms, diversity promotion schemes, among others. The students report the results of their analysis (results, computational performance, strengths and weaknesses, among others) via two reports, one for each phase. The reports will be discussed on the oral exam and, along with additional general questions, constitute the majority of the grade for this course. See the evaluation section for more details.",
+        "course_materials": null
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H0O23AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Reinforcement Learning: Lecture (B-KUL-H0O23a)",
+        "code": "(B-KUL-H0O23a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "18 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Marra Giuseppe"
+        ],
+        "content": "Content Introduction to planning and reinforcement learning Multi-armed bandits and their algorithms -- exploration vs exploitation -- rewards and regret -- greedy algorithms -- upper confidence bounds Markov Decision Processes and their variants -- Bellman Equations -- Policies and value functions -- Optimality -- Partial and full observability Dynamic Programming -- Policy evaluation, improvement and iteration -- Value iteration Monte Carlo Methods Temporal-difference learning - TD Prediction - Q-learning - Sarsa - On-policy vs off-policy - n-Step bootstrapping Planning and learning with tabular methods -- Dyna : integrated planning, acting and learning -- Real time dynamic programming -- Monte-Carlo tree search Approximate methods -- Value function approximation -- Gradient methods -- on-policy and off-policy variants Policy gradient methods -- Policy approximation -- Policy gradients -- Actor Critic Contemporary topics - Deep Reinforcement learning - multi-agent reinforcement learning - shielding and safe reinforcement learning - relational reinforcement learning and traditional planning Applications in game playing and beyond",
+        "course_materials": "Course materials Sutton and Barto, Reinforcement learning: an Introduction, 2nd Edition. Additional materials on Toledo."
+      },
+      {
+        "title": "1 ECTS Reinforcement Learning: Exercises (B-KUL-H0O24a)",
+        "code": "(B-KUL-H0O24a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "15 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Marra Giuseppe"
+        ],
+        "content": "Content 6 sessions of 2.5 hours and some assignments The exercise sessions practice the concepts, models and techniques seen in the lectures.",
+        "course_materials": "Course materials The exercise material will be made available on Toledo"
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02C1AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Machine Learning and Inductive Inference: Lecture (B-KUL-H02C1a)",
+        "code": "(B-KUL-H02C1a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Blockeel Hendrik"
+        ],
+        "content": "Content 1. introduction to machine learning, connections with other subjects 2. general principles of learning: - concept learning, version spaces - evaluation of learning algorithms - theory of learnability - representation of inputs and outputs of learning algorithms 3. specific learning approaches: - decision trees - rules, association rules - instance based learning - clustering - neural networks - support vector machines - Bayesian learning - genetic algorithms - ensemble methods (bagging, boosting, ...) - reinforcement learning - inductive logic programming",
+        "course_materials": "Course materials Course Text Lecture slides"
+      },
+      {
+        "title": "1 ECTS Machine Learning and Inductive Inference: Exercises (B-KUL-H00G6a)",
+        "code": "(B-KUL-H00G6a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "15 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Blockeel Hendrik"
+        ],
+        "content": "Content Exercises are made on the subjects discussed during the lectures. These are mostly pen-and-paper exercises where students gain insight in the workings of learning algorithms by manually mimicking the computations of certain learning algorithms, graphically describing the result of a learning algorithm (by drawing decision surfaces), etc. There are also exercises on evaluation of machine learning models and algorithms.",
+        "course_materials": "Course materials A list of exercises. Solutions are made available on Toledo."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H08M0AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3,5 ECTS Brain Computer Interfaces: Lectures (B-KUL-H08M0a)",
+        "code": "(B-KUL-H08M0a)",
+        "metadata": {
+          "ects": "3,5 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "20.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Van Hulle Marc"
+        ],
+        "content": "Content 1. Introduction Definition of Brain Computer Interfaces. Types of interfaces (invasive and noninvasive), developments and testing, applications. 2. Basic principles of Neuroscience Anatomy and physiology of human and monkey brain. Brain signals: spikes, local field potentials (LFPs), electrocorticography (ECoG), EEG, fMRI,... 3. Invasive BCI Definition, type of signals (spikes, LFPs, ECoGs), recording methodology, recording sites, signal conditioning, feature construction, feature selection, decoding (classification/regression). Examples of invasive BCIs: text spelling, decoding and tracking arm (hand) position, controlling prosthetic devices such as orthotic hands, robot arms and exeskeletons, speech and handwrtiing decoding. 4. Noninvasive BCI Definition, type of signals (EEG, fMRI), comparison with invasive BCI (lower spatial and/or temporal resolution), signal conditioning, feature construction, feature selection, decoding (classification/regression). Examples of noninvasive BCIs based on visually evoked potentials (VEPs) mu-rhythms, event-related potentials (ERPs).",
+        "course_materials": "Course materials Course material downloadable from Toledo."
+      },
+      {
+        "title": "0,5 ECTS Brain Computer Interfaces: Exercises (B-KUL-H08M1a)",
+        "code": "(B-KUL-H08M1a)",
+        "metadata": {
+          "ects": "0,5 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "10 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Van Hulle Marc"
+        ],
+        "content": "Content 2 lab sessions are planned during which the student gets hand-on experience with EEG-based BCI.",
+        "course_materials": "Course materials Matlab code provided during lab session."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02D3AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Support Vector Machines: Methods and Applications: Lecture (B-KUL-H02D3a)",
+        "code": "(B-KUL-H02D3a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Suykens Johan"
+        ],
+        "content": "Content - Introduction and motivation - Basics of statistical decision theory and pattern recognition - Basics of convex optimisation theory, Karush-Kuhn-Tucker conditions, primal and dual problems - Maximal margin classifier, linear SVM classifiers, separable and non-separable case - Kernel trick and Mercer theorem, nonlinear SVM classifiers, choice of the kernel function, special kernels suitable for textmining - Applications: classification of microarray data in bioinformatics, classification problems in biomedicine - VC theory and structural risk minimisation, generalisation error versus empirical risk, estimating the VC dimension of SVM classifiers, optimal tuning of SVMs - SVMs for nonlinear function estimation - Least squares support vector machines, issues of sparseness and robustness, Bayesian framework, probabilistic interpretations, automatic relevance determination and input selection, links with Gaussian processes and regularisation networks, function estimation in RKHS. - Applications: time-series prediction, finance - Kernel versions of classical pattern recognition algorithms, kernel Fisher discriminant analysis - Kernel trick in unsupervised learning: kernel based clustering, SVM and kernel based density estimation, kernel principal component analysis, kernel canonical correlation analysis - Applications: datamining, bioinformatics - Methods for large scale data sets, approximation to the feature map (Nystrom method, Random Fourier features), estimation in the primal - SVM extensions to recurrent models and control; Kernel spectral clustering; Deep learning and kernel machines; attention and transformers from a kernel machines perspective. (10 lectures (2 hours) + 3 computer exercise sessions)",
+        "course_materials": "Course materials Study cost:1-10 euros ( The information about the study costs as stated here gives an indication and only represents the costs for purchasing new materials. There might be some electronic or second-hand copies available as well. You can use LIMO to check whether the textbook is available in the library. Any potential printing costs and optional course material are not included in this price. ) The course material is largely based on the textbook J.A.K. Suykens, T. Van Gestel, J. De Brabanter, B. De Moor, J. Vandewalle, Least Squares Support Vector Machines, World Scientific, Singapore, 2002 (ISBN 981-238-151-1) Related books: Cristianini N., Shawe-Taylor J., An introduction to support vector machines, Cambridge University Press, 2000. Schoelkopf B., Burges C., Smola A., Advances in Kernel Methods: Support Vector Learning, MIT Press, Cambridge, 1998. Schoelkopf B., Smola A., Learning with Kernels, MIT Press, Cambridge, 2002 Vapnik V., Statistical learning theory, John Wiley, New-York, 1998."
+      },
+      {
+        "title": "1 ECTS Support Vector Machines: Methods and Applications: Exercises (B-KUL-H00H3a)",
+        "code": "(B-KUL-H00H3a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "10 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Suykens Johan"
+        ],
+        "content": null,
+        "course_materials": null
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02B3AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3,5 ECTS Neural Computing: Lecture (B-KUL-H02B3a)",
+        "code": "(B-KUL-H02B3a)",
+        "metadata": {
+          "ects": "3,5 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Van Hulle Marc"
+        ],
+        "content": "Content Part I: The nervous system neuron, action potential, synapse, channel regulation and memory, visual system, neural maps and the development of the visual system, reaching and grasping Part II: Recording from the brain invasive and non-invasive recording Part III: Computational neuroscience principles, Reichardt detector, models of complex motion and actions, convolutional and self-organising neural networks",
+        "course_materials": "Course materials Study cost:1-10 euros ( The information about the study costs as stated here gives an indication and only represents the costs for purchasing new materials. There might be some electronic or second-hand copies available as well. You can use LIMO to check whether the textbook is available in the library. Any potential printing costs and optional course material are not included in this price. ) course slides, course texts course overview example questions for the exam all available from Toledo"
+      },
+      {
+        "title": "0,5 ECTS Neural Computing: Laboratory Sessions (B-KUL-H00G2a)",
+        "code": "(B-KUL-H00G2a)",
+        "metadata": {
+          "ects": "0,5 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "13 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Van Hulle Marc"
+        ],
+        "content": "Content Lab sessions in support of the course material.",
+        "course_materials": null
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/P0P75AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "4 ECTS Topics in Psychonomic Science (B-KUL-P0P75a)",
+        "code": "(B-KUL-P0P75a)",
+        "metadata": {
+          "ects": "4 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "24.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Krampe Ralf",
+          "Reynvoet Bert",
+          "Schaeken Walter",
+          "Wagemans Johan"
+        ],
+        "content": "Content In the lectures, maximal three different subdomains of psychonomic science will be dealt with. These subdomains may differ each year and will be taken from the following (not exclusive) list: Perception Memory Categorization Language processing Numerical cognition Thinking and reasoning",
+        "course_materials": "Course materials Study cost:Not applicable ( The information about the study costs as stated here gives an indication and only represents the costs for purchasing new materials. There might be some electronic or second-hand copies available as well. You can use LIMO to check whether the textbook is available in the library. Any potential printing costs and optional course material are not included in this price. ) Study material is made available through Toledo/Ultra. International literature Powerpoint presentations"
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02D6AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "15 ECTS Master's Thesis ECS (B-KUL-H02D6a)",
+        "code": "(B-KUL-H02D6a)",
+        "metadata": {
+          "ects": "15 ECTS Credits",
+          "language": "English",
+          "hours": "405 hours",
+          "semester": "Both semesters"
+        },
+        "professors": [],
+        "content": "Content Students take active part in research related questions within one of the sub-domains of A.I. In particular, students select one of the research projects offered by the involved research units. They work independently, but guided by the staff of the research unit, to perform the research work required for the selected project. In the ECS-option, the thesis-project should involve the development of or the experimentation with a small-scale AI-system. Part of the master's thesis should consist of a critical positioning of the topic of the thesis-project within the broader setting of A.I. In addition to the possibility of developing and writing a master thesis, the students also have the possibility to do a company project of 15 weeks or a project within a research institute, either in Belgium or abroad. The main activities of the internship are: - prepare a detailed job description for the internship; this is done in collaboration with a staff member of the host institution (the supervisor) and has to be endorsed by a staff member of the MAI Faculty (the academic promoter). - carry out the project which is specified in the job description under the supervision of a staff member of the host institution; send monthly progress reports. - write a report which summarizes the results of the project work; it should have at least 20 pages (annexes not included). - oral presentation and defense of the report.",
+        "course_materials": null
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02H4AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Multi-Agent Systems: Lecture (B-KUL-H02H4a)",
+        "code": "(B-KUL-H02H4a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "24 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Joubert Johan"
+        ],
+        "content": "Content Introduction Agents and autonomy, agents vs. objects, agents vs. expert systems Cooperative vs competitive multi-agent systems Distributed vs centralised vs decentralised Task- vs state- vs worth-oriented domains Application domains cyberphysical systems (CPS) - robotics, logistics, automated driving agent-based modelling Agent, multi-agent systems and software engineering Autonomous agents & agent architectures deliberative / theoretical reasoning agents reactive and behaviour-based agents, Brooks’ subsumption architecture, Agent network architecture practical reasoning agents - belief-desire-intention (BDI) horizontally and vertically layered architectures Automated planning & acting Planning vs acting descriptive vs operational models Planning: models, properties & algorithms Deterministic / classical planning Temporal planning Non-deterministic planning & discretization Probabilistic planning Hierarchical task networks PDDL Multi-agent planning POCL planning Parallel POCL planning Multi-agent POCL planning MA-PDDL Multi-agent task allocation contract net + variants (incl dynamic, with confirmation) task trees and subtree bidding gradient fields agent negotiations for task re-distribution deals, conflict deal, Zeuthen strategy Swarm intelligence emergent behaviour, self-organization stigmergy ACO (ant colony optimisation) - TSP, AntNet, AntSystem Delegate MAS for large-scale dynamic coordination and control applications task & resource agents exploration, intention and feasibility case study - manufacturing control & logistics Competitive multi-agent systems & game theory non-cooperative game theory coalitional game theory",
+        "course_materials": "Course materials An Introduction to MultiAgent Systems - Second Edition, M. Wooldridge, 2009. M. Ghallab, D. Nau, P. Traverso, “Automated planning and acting” - http://projects.laas.fr/planning/, 2016 Various papers and book chapters from literature."
+      },
+      {
+        "title": "1 ECTS Multi-Agent Systems: Project (B-KUL-H08M2a)",
+        "code": "(B-KUL-H08M2a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Assignment",
+          "hours": "8 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Joubert Johan"
+        ],
+        "content": "Content A scientific project aims at experiencing the challenges as well as the opportunities that multi-agent systems entail in distributed problem solving. The project includes a limited literature study, practical development, evaluation, reporting.",
+        "course_materials": null
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02H5AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "4 ECTS Cybernetics and its Applications in Physiology and Biological Sciences (B-KUL-H02H5a)",
+        "code": "(B-KUL-H02H5a)",
+        "metadata": {
+          "ects": "4 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "26 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Talavera Pérez Karel"
+        ],
+        "content": "Content The course consists of a theoretical section and a part with different applications to physiological and biological systems. Theory: What is information, how can the quantity of information be measured, what are the limits of information processing and how can information be used? These problems are studied in: - communication ( Shannon information theory ): entropy and information, coding and transmission, redundancy, error-detection and correction. - computation ( complexity theory ): Turing machines, randomness and algorithmic complexity, complexity and induction. - control ( control theory ): study of processes: transfer function, transiënt analysis en harmonic analysis feedback systems: analysis, properties and stability. - self organization ( second-order cybernetics ): chaos and order in complex interacting systems. Applications: A choice is made (in consultation with the students) from a large and yearly changing list of different applications of the theory to processes of interactions in and between organisms. Topics are selected especially from physiological and biological applications (including neuro- and psycho-physiology), but emphasizing the fundamental and universal meaning of information processing by referring to examples from other domains. Examples of these topics are: - Information capacity of receptors and neurons; stochastic resonance in receptors; Long Term Potentiation; information processing and memory and learning. - Genetical information processing: coding, capacity, transmission and error correction - Immunological information processing: recognition and clonal section, diversity. - The DNA computer. - Coding, compression and storage of voice, music, images and data; telecommunication. - Thermodynamic entropy and information and complexity. - Implications of information- and complexity theory for knowledge theory. - The photoreceptor - The cerebral ischemia reflex; pupil reflex; muscle spindle and reflex control of posture. - Hunger and thirst; temperature regulation and other mechanisms of homeostasis. - Self organization and natural selection in evolution; the emergence of cooperativity. * The course consists of a theoretical section and a part with different applications to physiological and biological systems. Theory: What is information, how can the quantity of information be measured, what are the limits of information processing and how can information be used? These problems are studied in: - communication (Shannon information theory): entropy and information, coding and transmission, redundancy, error-detection and correction. - computation (complexity theory): Turing machines, randomness and algorithmic complexity, complexity and induction. - control (control theory): study of processes: transfer function, transiënt analysis en harmonic analysis feedback systems: analysis, properties and stability. - self organization (second-order cybernetics): chaos and order in complex interacting systems. Applications: A choice is made (in consultation with the students) from a large and yearly changing list of different applications of the theory to processes of interactions in and between organisms. Topics are selected especially from physiological and biological applications (including neuro- and psycho-physiology), but emphasizing the fundamental and universal meaning of information processing by referring to examples from other domains. Examples of these topics are: - Information capacity of receptors and neurons; stochastic resonance in receptors; Long Term Potentiation; information processing and memory and learning. - Genetical information processing: coding, capacity, transmission and error correction - Immunological information processing: recognition and clonal section, diversity. - The DNA computer. - Coding, compression and storage of voice, music, images and data; telecommunication. - Thermodynamic entropy and information and complexity. - Implications of information- and complexity theory for knowledge theory. - The cerebral ischemia reflex; pupil reflex; muscle spindle and reflex control of posture; hunger and thirst; temperature regulation and other mechanisms of homeostasis. - Self organization and natural selection in evolution; the emergence of cooperativity.",
+        "course_materials": "Course materials Course notes are available for the theoretical sections. For most of the applications also course notes are available, which include extensive references to recent reviews and material available on Internet. For a few applications use is made of recent reviews."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02C3AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3,5 ECTS Knowledge Representation: Lecture (B-KUL-H02C3a)",
+        "code": "(B-KUL-H02C3a)",
+        "metadata": {
+          "ects": "3,5 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Denecker Marc"
+        ],
+        "content": "Content Introduction on the role of Knowledge Representation in AI (Informal introduction to different types of knowledge and propositional attitudes, possible world analysis of knowledge, the role of knowledge in problem solving, the controversies and trade-offs of KR in AI) Knowledge representation in classical logic (Syntax, informal and formal semantics of classical logic, KR methology in classical logic) Extending classical logic with definitions (introduction to different types of definitions and inductive definitions, syntax and formal semantics of ID-logic) Using classical logic for problem solving (The role of different forms of logical inference in AI and for problem solving) Epistemic modal logic (Reasoning about knowledge, beliefs and intentions of other agents, syntax, formal and informal semantics of modal logic, correspondence theory, application to multi-agents systems) Knowledge representation in probabilistic logics (Introduction to probabilistic logics. Case study of CP-logic: syntax, informal and formal semantics.) Introduction to non-logical KR-formalisms (Production rules and frame-based systems)",
+        "course_materials": "Course materials Slides on Toledo Book \"Knowledge Representation and Reasoning\" Ronald Brachman and Hector Levesque"
+      },
+      {
+        "title": "0,5 ECTS Knowledge Representation: Exercises (B-KUL-H00G7a)",
+        "code": "(B-KUL-H00G7a)",
+        "metadata": {
+          "ects": "0,5 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "8.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Denecker Marc"
+        ],
+        "content": "Content Introduction on the role of Knowledge Representation in AI (Informal introduction to different types of knowledge and propositional attitudes, possible world analysis of knowledge, the role of knowledge in problem solving, the controversies and trade-offs of KR in AI) Knowledge representation in classical logic (Syntax, informal and formal semantics of classical logic, KR methology in classical logic) Extending classical logic with definitions (introduction to different types of definitions and inductive definitions, syntax and formal semantics of ID-logic) Using classical logic for problem solving (The role of different forms of logical inference in AI and for problem solving) Epistemic modal logic (Reasoning about knowledge, beliefs and intentions of other agents, syntax, formal and informal semantics of modal logic, correspondence theory, application to multi-agents systems) Knowledge representation in probabilistic logics (Introduction to probabilistic logics. Case study of CP-logic: syntax, informal and formal semantics.) Introduction to non-logical KR-formalisms (Production rules and frame-based systems) * The excercise sessions address the following topics: KR methodology using classical logic Syntax , semantics and KR of definitional knowledge Use of inference tools for automated problem solving using declarative specifications Modal and multi-modal logics, Kripke structures Probabilistic logics, syntax and semantics of CP-logic",
+        "course_materials": "Course materials Exercises and model solutions are made available on Toledo Students use the state-of-the-art inference system IDP to evaluate the correctness of their solutions for KR excercises The system is also used to show the role of inference for automated problem solving using declarative specifications."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02D5AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "4 ECTS Philosophy of Mind and Artificial Intelligence (B-KUL-H02D5a)",
+        "code": "(B-KUL-H02D5a)",
+        "metadata": {
+          "ects": "4 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "26 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Ramsey Grant"
+        ],
+        "content": "Content The course focuses on two kinds of questions regarding AI: 1. Metaphysical questions: Can machines think? Do robots have consciousness? Etc. 2. Ethical questions: Does AI create a responsibility gap? How should we deal with bias? Etc.",
+        "course_materials": "Course materials Papers and slides/notes."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02C8AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Information Retrieval and Search Engines: Lecture (B-KUL-H02C8a)",
+        "code": "(B-KUL-H02C8a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "de Lhoneux Miryam"
+        ],
+        "content": "Content The motivation for the course lies in the urgent need for computer programs that assist people in digesting masses of unstructured information composed of text and other media. We need information retrieval technology when, for instance, we find information on the World Wide Web, in repositories of news and blogs, in biomedical document bases, or in governmental and company archives. Moreover, emails, tweets, other messages and advertisements are searched and filtered. Various techniques of content recognition, recommendation and linking play an increasing role and allow generating content models of the documents or messages, that effectively match the personalized information needs of users. We witness a current interest in capturing dynamic changes in the data and in modeling dynamic interactions with users. The proliferation of wireless and mobile devices such as mobile phones has additionally created a demand for effective and robust techniques to index, retrieve and summarize information. The lectures cover the following topics: 1. Introduction * Classical IR systems * TFiDF * Law of Zipf * Evaluation 2. Retrieval and search models * Set-theoretic models * Algebraic models: vector space models * Probabilistic models: language retrieval models and Bayesian networks 3. Advanced probabilistic representations (topic modelling) * Probabilistic latent semantic analysis (pLSA), * Expectation Maximization (EM), * Latent Dirichlet allocation (LDA), * Gibbs sampling 4. Advanced algebraic representations (word vectors) * Latent semantic indexing (LSI), * Singular Value Decomposition (SVD) * Neural network-based representations 5. Multimedia information retrieval * Multimedia data types and features * Multimodal models * Cross-modal and multimodal retrieval 6. Learning to rank (LTR) * Relevance feedback * Relevance ranking evaluation: MAP, NDCG and MRAR * Pointwise, pairwise and listwise approaches * Neural network architectures for LTR 7. Web search * Crawling * Indexing * Link-based retrieval models: PageRank and HITS * Search engines evolution 8. Indexing structures, their compression and search * Inverted files * Distributed indices * Hashing * Symbol-wise compression * Compression of posting lists * Scalability and efficiency challenges 9. Clustering * Proximity functions * Sequential and hierarchical cluster algorithms * Algorithms based on cost-function optimization * Term clustering and cluster-based retrieval 10. Categorization * Feature selection * Naive Bayes * Support vector machines * (Approximate) k-nearest neighbor models * Multilabel, hierarchical and extreme classification 11. Conversational agents in search and recommendation * Modelling sessions * Multi-armed bandit models * Large Language Model (LLM) based conversational agents * Retrieval-augmented generation (RAG) 12. Invited industry lecture about IR in practice",
+        "course_materials": "Course materials Course material is available on the Toledo-platform of the K.U.Leuven. The following books offer background to the course material: Baeza-Yates, R. & Ribeiro-Neto, B. (2011). Modern Information Retrieval: The Concepts and Technology behind Search (2nd edition). Harlow, UK: Pearson. Büttcher, S., Clarke, C.L.A. & Cormack, G.V. (2010). Information Retrieval: Implementing and Evaluating Search Engines. Cambridge, MA: MIT Press. Manning, C.D., Raghaven, P. & Schütze, H. (2009). Introduction to Information Retrieval. Cambridge University Press. Moens, M.-F. (2006). Information Extraction: Algorithms and Prospects in a Retrieval Context (International Series on Information Retrieval 21). Berlin: Springer."
+      },
+      {
+        "title": "1 ECTS Information Retrieval and Search Engines: Exercises (B-KUL-H00G9a)",
+        "code": "(B-KUL-H00G9a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "10 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "de Lhoneux Miryam"
+        ],
+        "content": "Content Exercise session on latent semantic models, probabilistic and vector models Exercise session on learning to rank Exercise session on dynamic retrieval Exercise session on compression Exercise session on categorization and clustering Exercise session on link based and multimodal models",
+        "course_materials": "Course materials Exercises and answers are available via the Toledo platform."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02B2AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3,5 ECTS Cognitive Science: Lecture (B-KUL-H02B2a)",
+        "code": "(B-KUL-H02B2a)",
+        "metadata": {
+          "ects": "3,5 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Schaeken Walter",
+          "Nys Bojan"
+        ],
+        "content": "Content The course discusses 4 main topics: 1) general discussion of what cognitive science is 2) thinking and reasoning, with extra emphasis on the infant's object concepts and on rationality 3) perception, with an extra emphasis on the brain as a hypothesis-constucting-and-testing agent and on eye-movements 4) language, with an extra emphasis on optimality theory and language acquisition * The lectures follows closely the chapters from Cognitive Psychology” by Ken Gilhooly, Fiona Lyddy and Frank Pollick (McGraw Hill, 2014)",
+        "course_materials": null
+      },
+      {
+        "title": "0,5 ECTS Cognitive Science: Exercises (B-KUL-H00G1a)",
+        "code": "(B-KUL-H00G1a)",
+        "metadata": {
+          "ects": "0,5 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "13 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Schaeken Walter",
+          "Nys Bojan"
+        ],
+        "content": "Content The course discusses 4 main topics: 1) general discussion of what cognitive science is 2) thinking and reasoning, with extra emphasis on the infant's object concepts and on rationality 3) perception, with an extra emphasis on the brain as a hypothesis-constucting-and-testing agent and on eye-movements 4) language, with an extra emphasis on optimality theory and language acquisition",
+        "course_materials": null
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02A5AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "1,5 ECTS Computer Vision: Lecture (B-KUL-H02A5a)",
+        "code": "(B-KUL-H02A5a)",
+        "metadata": {
+          "ects": "1,5 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Proesmans Marc"
+        ],
+        "content": "Content Part I: Early and Mid-Level Vision 1. Introduction to Computer Vision 2. Basic Image Processing Linear Filtering Pyramids/Template Matching Non-linear Filtering (median, bilateral filtering) Morphology 3. Feature Detection and Matching Edges Points/Patches Fitting Hough 4. Grouping & Segmentation Clustering (K-Means, Agglomerative Clustering, Mean Shift) Spectral Clustering (Normalized Cuts, Graph cuts) Deformable Contours (Active Contours, Dynamic Programming) Part II: High-level Vision 5. Introduction to Image Understanding 6. Object Detection Scanning/Sliding Window Eigenfaces, HOG, LBP Boosting (Intro, Haar-Cascade) 7. Instance Recognition Local Feature Matching Bag of Words Spatial Verification 8. Deep Learning for Image Classification Intro to Deep Learning DCNN for Image Classifcation",
+        "course_materials": "Course materials Slides and references to online available textbooks and papers"
+      },
+      {
+        "title": "2,5 ECTS Computer Vision: Project (B-KUL-H02K5a)",
+        "code": "(B-KUL-H02K5a)",
+        "metadata": {
+          "ects": "2,5 ECTS Credits",
+          "language": "English",
+          "type": "Assignment",
+          "hours": "10 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Proesmans Marc"
+        ],
+        "content": "Content Concepts presented in the lectures as well as complementary aspects are further discussed through hands-on experience. Three assignments are planned. They all make use of the Python scripting language. The first assigment helps you to get acquainted with basic image processing steps required for further image analysis. The second assignment presents different (both traditional and DL) approaches to object detection and recognition. The third assignment helps the student mastering DL approaches for image classification and segmentation",
+        "course_materials": "Course materials Python scripting language. Online references."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02C7AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3,6 ECTS Biometrics System Concepts: Lecture (B-KUL-H02C7a)",
+        "code": "(B-KUL-H02C7a)",
+        "metadata": {
+          "ects": "3,6 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Claes Peter"
+        ],
+        "content": "Content The lectures are organized into the following topics: 1. General concepts of biometrics 2. Fingerprint recognition 3. Iris recognition 4. Face recognition 5. Hand recognition 6. Signature recognition 7. Keystroke recognition 8. Retina recognition 9. Ear recognition 10. Invited Lecture on legal and ethical implication in biometrics",
+        "course_materials": "Course materials Slides, recordings and online accessible material"
+      },
+      {
+        "title": "0,4 ECTS Biometrics Systems Concepts: Exercises (B-KUL-H00I1a)",
+        "code": "(B-KUL-H00I1a)",
+        "metadata": {
+          "ects": "0,4 ECTS Credits",
+          "language": "English",
+          "type": "Assignment",
+          "hours": "10 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Claes Peter"
+        ],
+        "content": "Content The Biometrics lectures are complemented by a series of programming (Python-based) and/or literature assignments giving the student hands-on and an active experience with concepts and techniques. In the first assignment, the student implements different validation metrics and test it on a pre-processed dataset of fingerprints. Subsequently, based on a personal preference, two assignments are selected from the following three options: 1. Implementing a non-standard key point based fingerprint matching algorithm, an iris recognition system and a combination of both. 2. Implementing and testing a face detection and face recognition algorithm. 3. Assessing and explaining a paper from the recent (within the last 5 years) international scientific literature on topics related to biometric systems.",
+        "course_materials": "Course materials Python Scripting Language, jupyter notebooks, google colab and online references"
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02H6BE",
+    "title": null,
+    "activities": [
+      {
+        "title": "4 ECTS Bio-informatics (B-KUL-H02H6a)",
+        "code": "(B-KUL-H02H6a)",
+        "metadata": {
+          "ects": "4 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Moreau Yves"
+        ],
+        "content": "Content 1. Introduction to molecular biology - DNA - RNA - Proteins 2. Sequence alignment - Dynamic programming - Global and local alignment - BLAST 3. Introduction to Bayesian statistics - The Cox-Jaynes axioms - Maximum likelihood, maximum a posteriori, and Bayesian inference - Dirichlet distributions and pseudocounts 4. Hidden Markov Models (HMMs) - Viterbi decoding - Forward-backward algorithm - HMM estimation with known paths - Viterbi learning - Baum-Welch algorithm 5. Applications of HMMs - Modeling protein families - Gene prediction 6. Expectation-Maximization for clustering and motif finding - The EM algorithm - EM for clustering - EM for motif finding 7. Gibbs sampling for motif finding and biclustering - Markov Chain Monte Carlo methods - Gibbs sampling - Motif finding",
+        "course_materials": "Course materials R. Durbin, A. Krogh, G. Mitchinson, S. Eddy, \"Biological Sequence Analysis: Probabilistic Models of Proteins and Nucleic Acids\", Cambride University Press, 1999. Powerpoint slides Handwritten notes"
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02D2AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Uncertainty in Artificial Intelligence: Lecture (B-KUL-H02D2a)",
+        "code": "(B-KUL-H02D2a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "16.5 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "De Laet Tinne",
+          "De Raedt Luc"
+        ],
+        "content": "Content Bayesian probability theory: modelling, inference, reasoning, decision making Graphical models -- Bayesian networks, Markov Networks and Factor Graphs Independence in graphical models Inference algorithms Hidden and observable parameters Learning Dynamic systems (such as Hidden Markov Models and Kalman Filters) Combining logic with graphical models Applications",
+        "course_materials": "Course materials The course is based on (selected) parts of David Barber's forthcoming book on Bayesian Reasoning and Machine Learning, available from http://www.cs.ucl.ac.uk/staff/d.barber/brml and some additional materials."
+      },
+      {
+        "title": "0,5 ECTS Uncertainty in Artificial Intelligence: Exercises (B-KUL-H00H2a)",
+        "code": "(B-KUL-H00H2a)",
+        "metadata": {
+          "ects": "0,5 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "15 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "De Laet Tinne",
+          "De Raedt Luc"
+        ],
+        "content": "Content There are around 6 exercise sessions (mostly with pen and paper) on various aspects of uncertainty reasoning and graphical models.",
+        "course_materials": null
+      },
+      {
+        "title": "0,5 ECTS Uncertainty in Artificial Intelligence: Project (B-KUL-H08M4a)",
+        "code": "(B-KUL-H08M4a)",
+        "metadata": {
+          "ects": "0,5 ECTS Credits",
+          "language": "English",
+          "type": "Assignment",
+          "hours": "15 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "De Laet Tinne",
+          "De Raedt Luc"
+        ],
+        "content": "Content Each year students have to make one or more assignments and hand in their solution. This can take the form of traditional exercises or of a small project with software for graphical models.",
+        "course_materials": null
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H0T26AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "2,5 ECTS Analysis of Large Scale Social Networks: Lectures (B-KUL-H0T26a)",
+        "code": "(B-KUL-H0T26a)",
+        "metadata": {
+          "ects": "2,5 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Thijs Bart"
+        ],
+        "content": "Content The content of this course can be divided into three main parts: Fundamentals, Data, and Implementations and Tools. However, the course will not pass through these parts in a linear manner, but deal with separate topics when most appropriate. As an example, after introducing basic concepts like graph or matrix representation, tools like Pajek or Gephi are discussed. Another example is the advantage of graph databases like Neo4J for graph traversal like Breadth First over traditional relational databases. Part I: Fundamentals • Basic Concepts: Undirected and directed network, weighted network, bipartite network; nodes, links and their general properties • Vector Space Model; matrix representation • Graph Theory: vertex, edge • Centrality measures like degree, closeness, betweenness, PageRank, • Connectedness, Clustering Coefficient, Neighborhood • Graph traversal schemes: Breadth First Search and Depth]First Search, Shortest path • Partitioning, Clustering and Community Detection • Different Random Graph Models: Erdös]Renyi; Barabasi]Albert, Watts & Strogatz • Hubs, Preferential Attachment, Cumulative Advantage, small world networks Part II: Data • Graph data representation in adjacency matrices, weighted matrices or as a set of pairs • Additional data matrices: Degree matrix and Laplacian Matrix • Graph Processing: Creation of sub]networks or reduction, Graph Concatenation, Hybrid links • Graph Databases: e.g. Neo4J and Cypher query language Part III: Implementations and Tools • Visualizations: Energy or Spring Models: Kamada]Kawaii, Force Atlas; Multi Dimensional Scaling • Algorithms: eg. Dijkstra’s, A*; Approximations • Performance of graph algorithms on large graph instances • Time and Space Complexity of algorithms • Advantages/Disadvantages of Parallelism and Map]Reduce • Green Marl as a Domain Specific Language for Graph Analysis",
+        "course_materials": "Course materials The course material will consist of a collection of selected papers and book chapters and complemented by slides presented during the lectures Most topics are covered in this online book • Network Science by Albert-Lásló Barabási (available at http://www.networksciencebook.com/ Additional Recommended literature: • Mark Newman. Networks: An Introduction. Oxford University Press, 2010. • Wasserman, S., Faust, K., Social Network Analysis: Methods and Applications. Cambridge, Cambridge University Press, 1994. Selected papers and chapters will be available in Toledo with indication of relevant sections and paragraphs."
+      },
+      {
+        "title": "1 ECTS Analysis of Large Scale Social Networks: Exercises (B-KUL-H0T27a)",
+        "code": "(B-KUL-H0T27a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "10 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Thijs Bart"
+        ],
+        "content": "Content Exercise sessions on analysis of social networks.",
+        "course_materials": "Course materials Handouts"
+      },
+      {
+        "title": "0,5 ECTS Analysis of Large Scale Social Networks: Project (B-KUL-H0T28a)",
+        "code": "(B-KUL-H0T28a)",
+        "metadata": {
+          "ects": "0,5 ECTS Credits",
+          "language": "English",
+          "type": "Assignment",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Thijs Bart"
+        ],
+        "content": "Content Practical assignment on analysis of social networks.",
+        "course_materials": "Course materials Handouts"
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02A0AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Fundamentals of Artificial Intelligence: Lecture (B-KUL-H02A0a)",
+        "code": "(B-KUL-H02A0a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Guns Tias"
+        ],
+        "content": "Content 1. Introduction - Definition and general context, both of the domain and the course 2. State-space representation and search methods - state-space representation: introduction and trade-offs, - blind search, - heuristic search, including the study of the A*-algorithm, - advanced aspects of heuristic search, 3. Examples of search - search in data mining: pattern mining - heuristic search in games 4. Constraint propagation - backtracking, backtrack variants, intelligent and dependency directed backtracking, - arc consistency techniques, - hybrid constraint propagation methods 5. Some case studies of the use of constraint processing - interpretation of line drawings, - interpretation of natural language 6. Planning and Temporal representation - partial-order regression planning: STRIPS",
+        "course_materials": "Course materials Copies of the slides are made available by the student organisation VTK."
+      },
+      {
+        "title": "1 ECTS Fundamentals of Artificial Intelligence: Exercises (B-KUL-H02K1a)",
+        "code": "(B-KUL-H02K1a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "15 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Guns Tias"
+        ],
+        "content": "Content 1. Introduction (2 u.) - Definition and general context, both of the domain and the course 2. State-space representation and search methods (8 u.) - state-space representation: introduction and trade-offs, - blind search, - heuristic search, including the study of the A*-algorithm, - advanced aspects of heuristic search, - heuristic search in games 3. Examples of search: pattern mining and games (2 u.) 4. Constraint propagation (3 u.) - backtracking, backtrack variants, intelligent and dependency directed backtracking, - arc consistency techniques, - hybrid constraint propagation methods 5. Some case studies of the use of constraint processing (3 u.) - interpretation of line drawings, - interpretatie of natural language 6. Planning and Temporal representation (1.5 u.) - partial-order regression planning: STRIPS",
+        "course_materials": "Course materials Slides of the study material are available from the student organisation VTK"
+      },
+      {
+        "title": "1 ECTS Fundamentals of Artificial Intelligence: Project (B-KUL-H0O43a)",
+        "code": "(B-KUL-H0O43a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Assignment",
+          "semester": "First semester"
+        },
+        "professors": [
+          "Guns Tias"
+        ],
+        "content": "Content The projects challenge the student to implement AI search techniques seen in class, in a Python programming environment based on the PacMan world developed at UC Berkeley. The project consists of two parts: P1: Search: Students implement depth-first, breadth-first, uniform cost, and A* search algorithms. These algorithms are used to solve navigation and traveling salesman problems in the Pacman world. P2: Multi-Agent Search: Classic Pacman is modeled as both an adversarial and a stochastic search problem. Students implement multiagent minimax and expectimax algorithms, as well as designing evaluation functions. You will fill in portions of provided Python files during the assignment. An autograder is provided to grade your own answers and guide you in your development; your submission will be evaluated by us independently. Collaboration and plagiarism are not allowed, we will check for this extensively and sanction if needed.",
+        "course_materials": "Course materials The project assignment and the necessary software libraries and installation instructions will be made available on Toledo."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H0P05AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "4 ECTS AI Ethics & Regulation: Lecture (B-KUL-H0P05a)",
+        "code": "(B-KUL-H0P05a)",
+        "metadata": {
+          "ects": "4 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "26 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Kuczerawy Aleksandra"
+        ],
+        "content": "Content The lectures are structured in following modules spread over 13 lectures: Introduction (3 lectures) What are the various normative mechanisms in society? Cf. Lessig What is the nature of ethics and law? - Brief introduction to ethics and law What are the similarities and the differences between ethics and law? Where does ethics enter law? In what ways can ethics provide answers where relevant applicable law is not (yet) available How do law and ethics, law and technology, ethics and technology interact? - Brief introduction to the technological determinism vs constructionism debate - Normative consequences of the mutual interactions between technological developments and fundamental ethical and legal concepts and outlooks (e.g. autonomy, personhood, etc.) What are the latest developments in Europe (and around the world) in terms of guidelines and standards on ethical (or trustworthy) AI? Requirements of trustworthy AI: Ethical and legal perspectives, critical discussion and implementation (3 lectures) Autonomy and personhood: Human agency and oversight, responsibility, accountability, and liability Safety and security: Societal and environmental wellbeing, Technical robustness and safety Justice: Diversity, non-discrimination, equality and fairness Enforcement and regulatory oversight mechanisms (technical and non-technical methods); whistleblowing regulation. Dual Use: ethical backdrop, policies and implementation (1 lecture) Case studies (5 lectures) – for instance: media & fake news automated driving banking and insurance judiciary health/enhancement Comparison EU with non-EU perspectives on ethical / trustworthy AI (1 lecture)",
+        "course_materials": "Course materials Electronic reader on Toledo (consisting of legal and policy documents, research articles, etc.)"
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02B1AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3,5 ECTS Natural Language Processing: Lecture (B-KUL-H02B1a)",
+        "code": "(B-KUL-H02B1a)",
+        "metadata": {
+          "ects": "3,5 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "de Lhoneux Miryam"
+        ],
+        "content": "Content 1. Introduction What is natural language processing (NLP)? Current state-of-the-art of NLP Ambiguity Other challenges Representing words, phrases and sentences 2. Segmentation and tokenization Regular expressions Word tokenization, lemmatization and stemming Sentence segmentation Subword tokenization 3. Language Modelling N-gram language models perplexity maximum likelihood estimation smoothing 4. Neural Language Modelling Word embeddings Vector space models for NLP Recurrent neural network (RNN) for language modelling Transformer architecture for language modelling Use of language models in downstream tasks: fine-tuning and pretraining 5. Part-of-Speech (POS) Tagging Hidden Markov model and viterbi Conditional Random Fields (Bi)LSTM for POS tagging Encoder-decoder architecture for sequence-to-sequence labeling 6. Morphological analysis Inflection and derivation Finite state morphology Sequence-to-sequence neural models of morphological inflection 7. Syntactic Parsing Universal Dependencies Dependency parsing: Graph based dependency parsing, transition based dependency parsing Constituent parsing with a (probabilistic) context free grammar ((P)CFG) and the Cocke-Younger-Kasami (CYK) algorithm 8. Semantics (lexical and compositional) Word sense disambiguation Semantic role labelling 9. Discourse: Coreference Resolution Discourse coherence Algorithm of Hobbs Neural end-to-end coreference resolution 10. Question Answering Evolution of QA systems from rule-based to neural Complex pipelines to end-to-end to retrieval-free Closed-domain vs open-domain Text-only vs multimodal 11. Neural Machine Translation Encoder-decoder architecture (e.g., RNN, transformer-based) Attention models Improvements and alternative architectures that deal with limited parallel training data 12. Conversational Dialogue Systems and Chatbots Task oriented dialog agents: Rule based versus neural based approaches Chatbots: End-to-end sequence-to-sequence neural models",
+        "course_materials": "Course materials Handbooks Daniel Jurafsky and James H. Martin. 2024. Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models, 3rd edition. Jacob Eisenstein. 2019. Introduction to Natural Language Processing . MIT Press. Yoav Goldberg. 2016. A Primer on Neural Network Models for Natural Language Processing. Ian Goodfellow, Yoshua Bengio, and Aaron Courville. 2016. Deep Learning . MIT Press. + recent articles: e.g., of the proceedings of the Meetings of the ACL, AAAI, NeurIPS ."
+      },
+      {
+        "title": "0,5 ECTS Natural Language Processing: Exercises (B-KUL-H00G0a)",
+        "code": "(B-KUL-H00G0a)",
+        "metadata": {
+          "ects": "0,5 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "13 hours",
+          "semester": "First semester"
+        },
+        "professors": [
+          "de Lhoneux Miryam"
+        ],
+        "content": "Content Exercises on tokenization and segmentation Exercises on language modelling and POS tagging Exercises on syntactic parsing Exercises on semantic and discourse processing Exercises on machine translation Exercises on question answering",
+        "course_materials": null
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02C4AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "3 ECTS Artificial Neural Networks and Deep Learning: Lecture (B-KUL-H02C4a)",
+        "code": "(B-KUL-H02C4a)",
+        "metadata": {
+          "ects": "3 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "19.5 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Suykens Johan"
+        ],
+        "content": "Content Basic concepts: different architectures, learning rules, supervised and unsupervised learning. Shallow versus deep architectures. Applications in character recognition, image processing, diagnostics, associative memories, time-series prediction, modelling and control. Single- and multilayer feedforward networks and backpropagation, on-line learning, perceptron learning Training, validation and test set, generalization, overfitting, early stopping, regularization, double descent phenomenon Fast learning algorithms and optimization: Newton method, Gauss-Newton, Levenberg-Marquardt, conjugate gradient, adam Bayesian learning Associative memories, Hopfield networks, recurrent neural networks Unsupervised learning: principal component analysis, Oja's rule, nonlinear pca analysis, vector quantization, self-organizing maps Neural networks for time-series prediction, system identification and control; basics of LSTM; basics of deep reinforcement learning Basic principles of support vector machines and kernel methods, and its connection to neural networks Deep learning: stacked autoencoders, convolutional neural networks, residual networks Deep generative models: restricted Boltzmann machines, deep Boltzmann machines, generative adversarial networks, variational autoencoders, normalizing flow, diffusion models Normalization, attention, transformers",
+        "course_materials": "Course materials Study cost: 1-10 euros ( The information about the study costs as stated here gives an indication and only represents the costs for purchasing new materials. There might be some electronic or second-hand copies available as well. You can use LIMO to check whether the textbook is available in the library. Any potential printing costs and optional course material are not included in this price. )"
+      },
+      {
+        "title": "1 ECTS Artificial Neural Networks and Deep Learning: Exercises (B-KUL-H00G8a)",
+        "code": "(B-KUL-H00G8a)",
+        "metadata": {
+          "ects": "1 ECTS Credits",
+          "language": "English",
+          "type": "Practical",
+          "hours": "15 hours",
+          "semester": "Second semester"
+        },
+        "professors": [
+          "Suykens Johan"
+        ],
+        "content": "Content 4 computer exercise sessions",
+        "course_materials": "Course materials Toledo."
+      }
+    ]
+  },
+  {
+    "url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H02D4AE",
+    "title": null,
+    "activities": [
+      {
+        "title": "4 ECTS Foundations of Formal Theories of Language (B-KUL-H02D4a)",
+        "code": "(B-KUL-H02D4a)",
+        "metadata": {
+          "ects": "4 ECTS Credits",
+          "language": "English",
+          "type": "Lecture",
+          "hours": "26 hours"
+        },
+        "professors": [],
+        "content": "Content This course offers a comprehensive introduction to the field of formal semantics. Formal semantics is the study of meaning by making use of logico-mathematical tools and is rooted in modern logic, the philosophy of language, and linguistics. The course is structured in four parts: (1) Introduction to formal semantics and some of its main assumptions, propositional logic, predicate logic, and some variants on, and deviations from, standard logic. This part concludes with a discussion of notions of meaning that go beyond truth-conditional approaches. (2) Extension/intension distinction and focus on intensional propositional and intensional predicate logic. The student is also introduced to the theory of types, categorial grammar and the notion of lambda abstraction. (3) Intensional theory of types and Montague grammar. (4) Recent developments in formal semantics: theory of generalized quantifiers, situation semantics, and discourse representation theory (depending on the progress made by, and interests of, the students).",
+        "course_materials": "Course materials The course will be based on the following two volumes: 1) Gamut, L.T.F. Logic, Language, and Meaning. Volume 1: Introduction to Logic. Chicago: University of Chicago Press. 2) Gamut, L.T.F. Logic, Language, and Meaning. Volume 2: Intensional Logic and Logical Grammar. Chicago: University of Chicago Press. Slides and extra background material will be made available on Toledo."
+      }
+    ]
+  }
+]
