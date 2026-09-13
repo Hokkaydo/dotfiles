@@ -38,6 +38,7 @@ application/pdf=firefox.desktop
 application/x-osptracker=tracker.desktop
 application/vnd.tcpdump.pcap=org.wireshark.Wireshark.desktop
 x-scheme-handler/claude-cli=claude-code-url-handler.desktop
+text/markdown=code.desktop
 
 [Added Associations]
 application/octet-stream=code.desktop;
@@ -71,3 +72,4 @@ application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 application/pdf=firefox.desktop;
 application/vnd.tcpdump.pcap=org.wireshark.Wireshark.desktop;
+text/markdown=code.desktop;

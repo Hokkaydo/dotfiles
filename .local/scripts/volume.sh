@@ -1,4 +1,5 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
+set -uo pipefail
 
 send_notification() {
     volume=$(pamixer --get-volume)
@@ -9,7 +10,6 @@ send_notification() {
     fi
     #dunstify -a "changevolume" -u low -r "9993" -h int:value:"$volume" -i "$icon" "Volume: ${volume}%" -t 2000
     canberra-gtk-play -i audio-volume-change -d "changeVolume" &
-    
 }
 
 show_usage() {
@@ -19,29 +19,23 @@ show_usage() {
     echo "  mute       Toggle mute/unmute"
 }
 
-case $1 in
+case "${1:-}" in
 up)
     # Set the volume on (if it was muted)
     pamixer -u
     pamixer --allow-boost -i 5
-    send_notification "$1"
-    exit 0
+    send_notification
     ;;
 down)
     pamixer -u
     pamixer --allow-boost -d 5
-    send_notification "$1"
-    exit 0
+    send_notification
     ;;
 mute)
     pamixer -t
-    if eval "$(pamixer --get-mute)"; then
-        #dunstify -i notification-audio-volume-muted -a "changevolume" -t 2000 -r 9993 -u low "Muted"
-    	exit 0;
-    else
-        send_notification up
+    if [ "$(pamixer --get-mute)" != "true" ]; then
+        send_notification
     fi
-    exit 0
     ;;
 *)
     show_usage

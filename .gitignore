@@ -195,3 +195,19 @@ gurobi.lic
 .vscode-shared/
 .config/neo4j-desktop
 .viminfo
+.config/zsh/.zcompdump*
+.config/waylandar/config.json
+.bun/*
+.config/QtProject/*
+.config/Raspberry Pi/*
+.config/ow-electron/*
+.config/lunarclient/*
+.lunarclient/*
+.lemminx/*
+gpuster-save/*
+waylandar/*
+.net/*
+.yarn/*
+waylandar/*
+waylandar
+courses.md

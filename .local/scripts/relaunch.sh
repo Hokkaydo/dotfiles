@@ -1,17 +1,23 @@
 #!/usr/bin/env bash
-killall waybar 2>/dev/null # Kill all instances of waybar
-waybar & # Launch statusbar
+set -uo pipefail
 
-killall swaybg
+killall waybar 2>/dev/null || true
+waybar &
 
-monitors=$(hyprctl monitors | grep '^Monitor' | awk '{print $2}')
+killall swaybg 2>/dev/null || true
 
-for monitor in $monitors; do 
-    STORE_PATH="${monitor//-/_}_WALLPAPER_STORE_PATH"
-    if [[ -f "${!STORE_PATH}" ]]; then    
-        TRUE_PATH=$(cat "${!STORE_PATH}")
-        swaybg -o $monitor -m fill -i $TRUE_PATH & 
+mapfile -t monitors < <(hyprctl monitors | awk '/^Monitor/{print $2}')
+
+for monitor in "${monitors[@]}"; do
+    store_var="${monitor//-/_}_WALLPAPER_STORE_PATH"
+    store_path="${!store_var:-}"
+    if [[ -z "$store_path" ]]; then
+        continue
+    fi
+    if [[ -f "$store_path" ]]; then
+        true_path=$(cat "$store_path")
+        swaybg -o "$monitor" -m fill -i "$true_path" &
     else
-        touch "${!STORE_PATH}"
+        touch "$store_path"
     fi
 done

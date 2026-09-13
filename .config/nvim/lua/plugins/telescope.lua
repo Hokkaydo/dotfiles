@@ -1,15 +1,15 @@
 return {
     'nvim-telescope/telescope.nvim',
-    tag = '0.1.8',
+    branch = 'master',
     dependencies={
         'nvim-lua/plenary.nvim',
     },
     keys = {
-        {'<leader>ff', "<cmd>Telescope find_files<CR>"},     -- [f]ind [f]iles
-        {'<leader>fp', "<cmd>Telescope git_files<CR>"},      -- [f]ind in [p]roject
-        {'<leader>fg', "<cmd>Telescope live_grep<CR>"},      -- [f]ind by [g]rep
-        {'<leader>fr', "<cmd>Telescope resume<CR>"},      -- [f]ind [r]esumes
-        {'<leader>fb', "<cmd>Telescope buffers<CR>"},        -- [f]ind [b]uffer
+        {'<leader>ff', "<cmd>Telescope find_files<CR>", desc = "[F]ind [F]iles"},
+        {'<leader>fp', "<cmd>Telescope git_files<CR>", desc = "[F]ind in [P]roject (git files)"},
+        {'<leader>fg', "<cmd>Telescope live_grep<CR>", desc = "[F]ind by [G]rep"},
+        {'<leader>fr', "<cmd>Telescope resume<CR>", desc = "[F]ind [R]esume last search"},
+        {'<leader>fb', "<cmd>Telescope buffers<CR>", desc = "[F]ind [B]uffer"},
     },
 
     opts={

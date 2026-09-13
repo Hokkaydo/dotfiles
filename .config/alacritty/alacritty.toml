@@ -27,6 +27,6 @@ vi_mode_style.shape = "Block"
 
 
 live_config_reload = true
-import = [ "~/.config/alacritty/tokyo-night-storm.toml" ]
+]
 
-[terminal]
+]

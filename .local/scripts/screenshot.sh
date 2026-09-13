@@ -25,7 +25,7 @@ case $1 in
 	;;
 --selection)
   grim -g "$(slurp)" "$path"
-	;;
+  ;;
 --active)
   grim -g "$(echo "$(hyprctl activewindow -j)" | jq -r '"\(.at[0]),\(.at[1]) \(.size[0])x\(.size[1])"')" "$path"
 	;;

@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -uo pipefail
 
 wl-copy -c
 
@@ -27,7 +28,7 @@ for FILE in "$@"; do
         make
         MAKE_STATUS=$?
         popd >/dev/null
-        
+
         rm "$BUILD_DIR/$NAME.md"
         if [[ $MAKE_STATUS -ne 0 || ! -f "$PDF_PATH" ]]; then
             notify-send "Failed to build PDF for $BASENAME"
@@ -38,19 +39,16 @@ for FILE in "$@"; do
         BASENAME="$NAME.pdf"
     fi
 
-    scp -4 "$FILE" "hokkaydo@hokkaydo.be:/home/hokkaydo/www/notes/$BASENAME"
-    if [[ "$EXT" == "md" ]]; then
-        rm "$FILE"
-    fi
-
-    if [[ $? -ne 0 ]]; then
+    if ! scp -4 "$FILE" "hokkaydo@hokkaydo.be:/home/hokkaydo/www/notes/$BASENAME"; then
         notify-send "Couldn't upload $BASENAME"
         continue
+    fi
+
+    if [[ "$EXT" == "md" ]]; then
+        rm "$FILE"
     fi
 
     url="https://hokkaydo.be/notes/$BASENAME"
     wl-copy "$(wl-paste)$(echo -e -n "$url")"
     notify-send "$BASENAME uploaded"
 done
-
-exit

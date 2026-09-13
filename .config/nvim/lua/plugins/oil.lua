@@ -4,7 +4,7 @@ return {
     tag = "v2.14.0",
     lazy=false,
     keys = {
-        {'<leader>d', "<CMD>lua require('oil').open()<CR>", mode='n'},
+        {'<leader>d', "<CMD>lua require('oil').open()<CR>", mode='n', desc = "Open file explorer (oil)"},
     },
     opts = {
         -- Oil will take over directory buffers (e.g. `vim .` or `:e src/`)

@@ -136,22 +136,30 @@ if [[ -f "$HOME/.config/zsh/.zsh_aliases" ]]; then
   source "$HOME/.config/zsh/.zsh_aliases"
 fi
 
-# Source Zsh Syntax Highlighting (if exists) 
-if [[ -f "$HOME/.config/zsh/plugins/fast-syntax-highlighting/F-Sy-H.plugin.zsh" ]]; then
-  source "$HOME/.config/zsh/plugins/fast-syntax-highlighting/F-Sy-H.plugin.zsh" 2>/dev/null
-  fast-theme -q catppuccin-macchiato
-fi
-
 # Source Zsh Auto completion (if exists)
 if [[ -f "$HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" ]]; then
-  source "$HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" 2>/dev/null
+  source "$HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" || echo "zsh: failed to source zsh-autosuggestions" >&2
   ZSH_AUTOSUGGEST_STRATEGY=(history completion)
   ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=10
+else
+  echo "zsh: zsh-autosuggestions not found, skipping" >&2
 fi
 
 # Source Sub-String Search (if exists)
 if [[ -f "$HOME/.config/zsh/plugins/zsh-history-substring-search.zsh" ]]; then
-  source "$HOME/.config/zsh/plugins/zsh-history-substring-search.zsh" 2>/dev/null
+  source "$HOME/.config/zsh/plugins/zsh-history-substring-search.zsh" || echo "zsh: failed to source zsh-history-substring-search" >&2
+else
+  echo "zsh: zsh-history-substring-search not found, skipping" >&2
+fi
+
+# Source Zsh Syntax Highlighting last (if exists) - it must load after any
+# plugin that registers ZLE widgets, or it logs "unhandled ZLE widget" warnings
+# for widgets that didn't exist yet at its own load time.
+if [[ -f "$HOME/.config/zsh/plugins/fast-syntax-highlighting/F-Sy-H.plugin.zsh" ]]; then
+  source "$HOME/.config/zsh/plugins/fast-syntax-highlighting/F-Sy-H.plugin.zsh" || echo "zsh: failed to source fast-syntax-highlighting" >&2
+  fast-theme -q catppuccin-macchiato
+else
+  echo "zsh: fast-syntax-highlighting not found, skipping" >&2
 fi
 
 # Source NVM (if exists)
@@ -162,3 +170,8 @@ fi
 
 # Created by `pipx` on 2024-03-14 11:39:09
 export PATH="$PATH:/home/hokkaydo/.local/bin:/usr/share/tau2/x86_64/bin"
+
+# zoxide (smarter cd)
+if command -v zoxide >/dev/null 2>&1; then
+  eval "$(zoxide init zsh)"
+fi

@@ -56,6 +56,12 @@ vim.opt.cursorlineopt = 'line,number'
 -- Preview the out of window substitutions in another view
 vim.opt.inccommand = 'split'
 
+-- Treesitter/LSP-based folding (used by nvim-ufo)
+vim.opt.foldcolumn = '1'
+vim.opt.foldlevel = 99
+vim.opt.foldlevelstart = 99
+vim.opt.foldenable = true
+
 -- Help with :make command for gcc
 vim.g.compiler_gcc_ignore_unmatched_lines = true
 

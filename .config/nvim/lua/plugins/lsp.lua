@@ -9,6 +9,7 @@ return {
         dependencies = {
             { "williamboman/mason.nvim",           lazy = false },
             { "williamboman/mason-lspconfig.nvim", lazy = false },
+            { "WhoIsSethDaniel/mason-tool-installer.nvim", lazy = false },
             { 'hrsh7th/nvim-cmp', lazy=false }
             -- { 'saghen/blink.cmp', lazy = false },
         },
@@ -19,9 +20,6 @@ return {
             -- Reserve a space in the gutter
             -- This will avoid an annoying layout shift in the screen
             vim.opt.signcolumn = 'yes'
-
-            -- ===================== lspconfig setup ==========================
-            local lspconfig = require('lspconfig')
 
             -- setup keymaps
             vim.api.nvim_create_autocmd('LspAttach', {
@@ -38,21 +36,44 @@ return {
                 end,
             })
 
-            
             -- ======================= mason setup ============================
-            -- local capabilities = require('blink.cmp').get_lsp_capabilities() 
+            -- mason-lspconfig (v2+) no longer uses the classic
+            -- ensure_installed + handlers + lspconfig.setup() pattern.
+            -- It installs servers via Mason then calls Neovim's native
+            -- vim.lsp.config()/vim.lsp.enable() (0.11+) under the hood, so
+            -- per-server overrides must go through vim.lsp.config() too.
             local capabilities = require('cmp_nvim_lsp').default_capabilities()
+            vim.lsp.config('*', { capabilities = capabilities })
+
+            -- ltex-ls crashes on startup with newer JDKs: LanguageTool's
+            -- English grammar.xml exceeds Java's default JAXP entity-size
+            -- guard (jdk.xml.totalEntitySizeLimit). Raise it via JAVA_OPTS,
+            -- which the ltex-ls launcher script forwards to the JVM.
+            vim.lsp.config('ltex', {
+                cmd_env = {
+                    JAVA_OPTS = "-Djdk.xml.totalEntitySizeLimit=0 -Djdk.xml.entityExpansionLimit=0",
+                },
+            })
+
+            -- Replace the language servers listed here
+            -- with the ones you want to install
+            local servers = { 'clangd', 'cmake', 'lua_ls', 'html', 'rust_analyzer', 'pyright', 'asm_lsp', 'cssls', 'ltex', 'bashls' }
+
             require('mason').setup({})
             require('mason-lspconfig').setup({
-                -- Replace the language servers listed here
-                -- with the ones you want to install
-                ensure_installed = { 'clangd', 'cmake', 'lua_ls', 'html', 'rust_analyzer', 'pyright', 'asm_lsp', 'cssls', 'ltex' },
-                automatic_installation = true,
-                handlers = {
-                    function(server_name)
-                        lspconfig[server_name].setup({ capabilities = capabilities })
-                    end,
-                },
+                ensure_installed = servers,
+                -- automatic_enable defaults to enabling EVERY installed Mason
+                -- package that happens to have a matching lspconfig name --
+                -- including formatter-only tools like `stylua` (which also
+                -- ships an `--lsp` mode) that we install below purely for
+                -- conform.nvim. Scope it to our actual server list so those
+                -- don't get silently enabled as LSP clients.
+                automatic_enable = servers,
+            })
+
+            -- Non-LSP tools (formatters used by conform.nvim) installed via mason's own registry
+            require('mason-tool-installer').setup({
+                ensure_installed = { 'stylua', 'shfmt', 'clang-format' },
             })
         end
     },

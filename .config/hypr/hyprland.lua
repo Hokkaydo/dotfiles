@@ -50,7 +50,6 @@ end)
 -- exec-once (runs only at launch)
 hl.on("hyprland.start", function()
     hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
-    hl.exec_cmd("~/.config/hypr/scripts/sleep.sh")
     --hl.exec_cmd("~/.local/scripts/theming.sh")
     hl.exec_cmd("hyprpm enable hyprexpo")
     --hl.exec_cmd("sleep 1 && firefox --new-window /home/hokkaydo/Documents/Firefox/startup.html")
@@ -73,6 +72,9 @@ hl.on("hyprland.start", function()
             i
         ))
     end
+
+    hl.exec_cmd("ags run ~/.config/ags -g 3") -- Calendar widget
+
 end)
 
 hl.on("monitor.added", function()
@@ -246,7 +248,7 @@ hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("sh ~/.config/rofi/bin/powermenu"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("nautilus"))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
-hl.bind(mainMod .. " + SHIFT + S", hl.dsp.layout("swapsplit"))
+hl.bind(mainMod .. " + SHIFT + J", hl.dsp.layout("swapsplit"))
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("hyprctl reload"))
 hl.bind(mainMod .. " + A", hl.dsp.exec_cmd("fuzzel"))
@@ -347,3 +349,6 @@ hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 -- Move/resize windows with ALT + LMB/RMB and dragging
 hl.bind("ALT + mouse:272", hl.dsp.window.drag(),   { mouse = true })
 hl.bind("ALT + mouse:273", hl.dsp.window.resize(), { mouse = true })
+
+
+

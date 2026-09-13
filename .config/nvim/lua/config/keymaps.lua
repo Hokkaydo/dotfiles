@@ -39,18 +39,6 @@ vim.keymap.set({ 'i', 's' }, '<C-p>',
 -- Disable highlighting of search pattern
 vim.keymap.set("n", "<escape>", vim.cmd.nohls, { desc = "Stop highlighting of search patterns" })
 
--- Pop a terminal below
--- TODO : Make it persistent (load it once and then hide/show it)
-vim.keymap.set("n", "<leader>tt",
-    function ()
-        vim.cmd.vsplit()     -- pop a buffer
-        vim.cmd.wincmd("J")  -- put the buffer on the bottom of the window
-        vim.cmd.term()       -- transform it into a terminal
-        vim.api.nvim_win_set_height(0, 5)   -- change the height
-    end,
-    { desc = "Pop a terminal on a new window on the bottom of the screen" }
-)
-
 -- Quickly register a ledger transaction
 vim.keymap.set("n", "<leader>la",
     function ()
