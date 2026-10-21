@@ -211,3 +211,6 @@ waylandar/*
 waylandar/*
 waylandar
 courses.md
+.Xilinx/
+vitis_journal.py
+.config/menus/

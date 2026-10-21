@@ -6,6 +6,7 @@
 
 path=('/home/hokkaydo/.juliaup/bin' $path)
 export PATH
+source /etc/profile.d/openfoam-13.sh
 echo coucou du linux :3
 
 # <<< juliaup initialize <<<

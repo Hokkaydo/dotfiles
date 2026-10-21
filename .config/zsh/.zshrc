@@ -175,3 +175,6 @@ export PATH="$PATH:/home/hokkaydo/.local/bin:/usr/share/tau2/x86_64/bin"
 if command -v zoxide >/dev/null 2>&1; then
   eval "$(zoxide init zsh)"
 fi
+
+# Alllow openfoam-13 to work properly
+source /etc/profile.d/openfoam-13.sh

@@ -134,6 +134,8 @@ alias history="cat ~/.config/zsh/.zsh_history"
 alias randomhash="tr -dc A-Za-z0-9 < /dev/urandom | head -c 32; echo"
 alias ltspice="wine ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/XVIIx64.exe"
 
+alias pwninit="pwninit --template-path ~/.config/pwninit/template.py"
+
 function gcce() {
   gcc "$1"
   ./a.out
@@ -166,13 +168,18 @@ function checkoutpr() {
 }
 
 function rm() {
-    mv $1 /tmp/
+    mv -i -- "$@" /tmp/
 }
+
 
 
 function rmf() {
-    /usr/bin/rm -rf ${@:1}
+    /usr/bin/rm -rf -- "$@"
 }
+
+# Autocompletions 
+compdef _mv rm
+compdef _rm rmf
 
 function asan_on() {
     export LD_PRELOAD=/usr/lib/libasan.so

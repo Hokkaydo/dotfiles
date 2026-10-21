@@ -28,7 +28,8 @@ function tooltip(ev: ReturnType<typeof withColor>) {
 function TodayCard(setView: (v: View) => void) {
   const [dayOffset, setDayOffset] = createState(0)
   const dayInfo = createComputed(() => {
-    const date = GLib.DateTime.new_now_local().add_days(dayOffset())
+    const now = GLib.DateTime.new_now_local();
+    const date = GLib.DateTime.new_local(now.get_year(), now.get_mont(), now.get_day_of_month(), 0, 0, 0).add_days(dayOffset())
     const list = events().map(withColor).filter((ev) => sameDay(eventStart(ev), date))
     return { date, list }
   })
